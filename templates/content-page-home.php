@@ -1,4 +1,6 @@
-<?php while (have_posts()) : the_post(); ?>
-  <?php the_content(); ?>
-  <?php wp_link_pages(array('before' => '<nav class="pagination">', 'after' => '</nav>')); ?>
-<?php endwhile; ?>
+<div class="row">
+	<div class="col-sm-8">
+		<h1> Music Player</h1>
+	</div>
+	<?php do_shortcode([wpv-view name="banners"]) ?>
+</div>
