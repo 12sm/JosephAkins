@@ -20,7 +20,9 @@ background-size: contain;
 background-repeat: no-repeat;
 background-position: center;
 }
-
+.navbar-brand{
+   display: none!important;
+}
 /* ==========================================================================
    Header
    ========================================================================== */
