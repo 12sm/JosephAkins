@@ -39,7 +39,7 @@ var Roots = {
        [1600, 4]
        ],
        navigation : true,
-       navigationText: ['<i class="fa fa-arrow-circle-left"></i>','<i class="fa fa-arrow-circle-right"></i>'],
+       navigationText: ['<i class="fa fa-arrow-circle-left fa-2x"></i>','<i class="fa fa-arrow-circle-right fa-2x"></i>'],
        pagination: false,
        scrollPerPage : true
       });
