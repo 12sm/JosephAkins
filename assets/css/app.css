@@ -23,6 +23,16 @@ background-position: center;
 .navbar-brand{
    display: none!important;
 }
+.owl-theme .owl-controls .owl-buttons .owl-prev {position:absolute; left:0px;}
+.owl-theme .owl-controls .owl-buttons .owl-next {position:absolute; right:0px;}
+.owl-theme .owl-controls {
+text-align: center;
+position: absolute;
+top: 35%;
+width: 100%;
+height: 0px;
+}
+
 /* ==========================================================================
    Header
    ========================================================================== */
