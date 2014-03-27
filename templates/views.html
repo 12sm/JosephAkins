@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<!--Music-home view-->
+[wpv-layout-start]
+	[wpv-items-found]
+	<!-- wpv-loop-start -->
+	<div class="row">
+		<wpv-loop>
+          <div class="col-sm-4">
+            <a href="[wpv-post-url]">
+              <img src="[types field="album-image" output="raw"][/types]" class="img-responsive" />
+            </a>
+             <div class="row">
+            <div class="col-xs-4">
+          <h4>[wpv-post-title]</h4>
+            </div>
+            <div class="col-xs-4">
+            </div>
+            <div class="col-xs-2">
+          		<h4><a href="[wpv-post-url]">Buy</a></h4>
+      		</div>
+      		<div class="col-xs-2">
+      			<h4><a href="">Share</a></h4>
+  			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-4">
+			<h4>By Joseph Akins</h4>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+				<h4>Music Player</h4>
+			</div>
+		</div>
+          </div>
+          <div class="col-sm-4">
+          	<h1>[wpv-post-title]</h1>
+          	</div>
+		</wpv-loop>
+</div>
+	<!-- wpv-loop-end -->
+	[/wpv-items-found]
+	[wpv-no-items-found]
+		[wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
+	[/wpv-no-items-found]
+[wpv-layout-end]
