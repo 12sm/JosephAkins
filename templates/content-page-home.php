@@ -6,7 +6,7 @@
 		</div>
 		<div class="row">
 			<div class="col-sm-12">
-			<?php echo do_shortcode('[wpve-view name="music-carousel"]') ?>
+			<?php echo do_shortcode('[wpv-view name="music-carousel"]') ?>
 			</div>
 		</div>
 	</div>
