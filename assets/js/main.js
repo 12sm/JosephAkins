@@ -32,6 +32,8 @@ var Roots = {
       // JavaScript to be fired on the home page
       $('.music-carousel').owlCarousel({
                 items: 4,
+                navigation: true,
+                navigationText: false,
               });
     }
   },
