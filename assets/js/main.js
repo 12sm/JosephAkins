@@ -31,10 +31,18 @@ var Roots = {
     init: function() {
       // JavaScript to be fired on the home page
       $('.music-carousel').owlCarousel({
-                items: 4,
-                navigation: true,
-                navigationText: false,
-              });
+                itemsCustom : [
+       [0, 2],
+       [480, 3],
+       [768, 4],
+       [1200, 4],
+       [1600, 4]
+       ],
+       navigation : true,
+       navigationText: ['<i class="fa fa-arrow-circle-left"></i>','<i class="fa fa-arrow-circle-right"></i>'],
+       pagination: false,
+       scrollPerPage : true
+      });
     }
   },
   // About us page, note the change from about-us to about_us.
