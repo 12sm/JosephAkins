@@ -23,6 +23,8 @@ background-position: center;
 .navbar-brand{
    display: none!important;
 }
+
+/*Owl Control positioning*/
 .owl-theme .owl-controls .owl-buttons .owl-prev {position:absolute; left:0px;}
 .owl-theme .owl-controls .owl-buttons .owl-next {position:absolute; right:0px;}
 .owl-theme .owl-controls {
