@@ -11,7 +11,9 @@ body { }
 .col {margin:0 1%;}
 
 .wrap{
-   background: url(../img/field-bg.jpg) no-repeat cover;
+   background: url(../img/field-bg.jpg) no-repeat;
+   background-position: bottom;
+   background-size: cover;
 }
 /* ==========================================================================
    Home
