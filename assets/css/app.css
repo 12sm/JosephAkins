@@ -18,6 +18,8 @@ body { }
 body.home > header {
 margin-bottom: 0px;
 }
+
+h1{color:#A57513;}
 h3{
    font-size: 18px;
 }
