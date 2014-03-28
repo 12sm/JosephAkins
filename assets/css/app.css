@@ -95,6 +95,10 @@ background-color: #97785D;
 background-color: #BB9B7F;
 }
 
+#menu-primary-navigation li.menu-facebook, li.menu-twitter {
+text-indent: -9999px;
+}
+
 /* ==========================================================================
    Home
    ========================================================================== */
