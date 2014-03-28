@@ -20,6 +20,9 @@ body.home > header {
     margin-bottom: 0px;
     }
 
+/*=====================================================================
+  Header
+  ===================================================================== */
 
 h1{color:#A57513;}
 
@@ -27,10 +30,7 @@ h1{color:#A57513;}
     font-size:36px;
     letter-spacing: 1px;
     font-family: "Georgia";
-    color:#3a5b13
-<<<<<<< HEAD
-<<<<<<< HEAD
-    }
+    color:#3a5b13}
 
 h2 {
     color:#A57513;
@@ -46,15 +46,6 @@ p { color:#000000;
     font-size:12px;
   }
     
-    
-    
-=======
-}
->>>>>>> FETCH_HEAD
-=======
-}
->>>>>>> FETCH_HEAD
-
 h3{
    font-size: 18px;
   }
