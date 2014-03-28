@@ -1,6 +1,11 @@
 <header class="banner navbar navbar-default navbar-static-top" role="banner">
 <!--LayerSlider begin-->
-<?php layerslider(1); ?>
+<?php
+
+if ( is_page( 'about' ) || '2' == $post->post_parent ) {    
+    // the page is "About", or the parent of the page is "About"
+    layerslider(1);
+    } ?>
 <!--LayerSlider end-->
   <div class="container">
     <div class="navbar-header">
