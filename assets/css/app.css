@@ -69,8 +69,88 @@ color: #fff!important;
 
 .sidebar { }
 
+/* =======================
+   Concerts
+   ======================= */
+   
+.bit-description-links a:hover,
+.bit-date a:hover, 
+.bit-venue a:hover,
+.bit-location a:hover,
+.bit-tickets a:hover,
+.bit-rsvp a:hover {
+   color:#777!important;
+}
 
+.bit-location {width:23%;}
 
+.bit-venue, .bit-date, .bit-description-links,
+.bit-location, .bit-tickets {
+   font-size:20px!important;
+   padding:10px 0px;
+}
+
+#bit-events tr {
+line-height: 3em;
+}
+td a {
+font-size: 12px!important;
+}
+.tour-body h3 {
+   margin-left: -10px;
+}
+
+.bit-venue{
+      display: none;
+}
+
+.bit-description-links{
+      display: none;
+}
+   
+   /* .bit-date{
+      width: 9%;
+   } */
+   
+td.bit-date {
+width: 90px!important;
+}
+
+.bit-header-overflow-fix span, .bit-header-overflow-fix span a{
+   color: #646464!important;
+}
+
+tr th{
+   color: #646464!important;
+}
+
+.bit-event-data{
+   letter-spacing: .5px!important;
+   word-spacing: 3px!important;
+}
+
+.bit-buy-tix {
+color: #E64C1F;
+text-decoration: none;
+font-weight: bold;
+}
+
+a:hover{
+   text-decoration: none!important;
+   color: inherit!important;
+}
+.bit-rsvp {
+display: none;
+}
+.bit-location a{
+   font-weight: normal!important;
+}
+.bit-bottom{
+   display: none;
+}
+.smaller{
+   font-size: 36px;
+}
 /* ==========================================================================
    Posts
    ========================================================================== */
