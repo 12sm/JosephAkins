@@ -10,8 +10,8 @@
 body { }
 .col {margin:0 1%;}
 
-.wrap .container-fluid{
-   background: url(../img/field-bg.jpg) no-repat cover;
+.wrap{
+   background: url(../img/field-bg.jpg) no-repeat cover;
 }
 /* ==========================================================================
    Home
