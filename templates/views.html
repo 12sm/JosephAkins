@@ -44,3 +44,58 @@
 		[wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
 	[/wpv-no-items-found]
 [wpv-layout-end]
+
+<!--Store-->
+[wpv-layout-start]
+	[wpv-items-found]
+
+<div class="row">
+	<div class='col-sm-5'>
+		<h3>Title</h3>
+	</div>
+	<div class="col-sm-1">
+		<h3>Type</h3>
+	</div>
+	<div class="col-sm-2">
+		<h3>Album</h3>
+	</div>
+	<div class="col-sm-1">
+		<h3> Rating</h3>
+	</div>
+	<div class="col-sm-3">
+	<h3>Price</h3>
+	</div>
+</div>
+	<!-- wpv-loop-start -->
+		<wpv-loop>
+          <div class="row">
+	<div class='col-sm-5'>
+		<h3>[wpv-post-title]</h3>
+	</div>
+	<div class="col-sm-1">
+		<h3>[types field="prod-type" output="raw"][/types]</h3>
+	</div>
+	<div class="col-sm-2">
+		<h3>Album</h3>
+	</div>
+	<div class="col-sm-1">
+		<h3> Rating</h3>
+	</div>
+	<div class="col-sm-3">
+      <div class="row">
+        <div class="col-sm-6">
+			<h3>Price</h3>
+		</div>
+		<div class="col-sm-6">
+			<h3>add to cart</h3>
+		</div>
+	</div>
+</div>
+</div>
+		</wpv-loop>
+	<!-- wpv-loop-end -->
+	[/wpv-items-found]
+	[wpv-no-items-found]
+		[wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
+	[/wpv-no-items-found]
+[wpv-layout-end]

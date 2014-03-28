@@ -1,6 +1,6 @@
 <header class="banner navbar navbar-default navbar-static-top" role="banner">
 <!--LayerSlider begin-->
-<?php layerslider('homepage'); ?>
+<?php layerslider(1); ?>
 <!--LayerSlider end-->
   <div class="container">
     <div class="navbar-header">
