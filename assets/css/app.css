@@ -8,24 +8,44 @@
    ========================================================================== */
 
 body { }
+
 .col {margin:0 1%;}
 
-.wrap{
+.wrap {
    background: url(../img/bg-field.jpg) no-repeat;
-   background-position: bottom;
+   background-position: center center;
    background-size: cover;
 }
+
 body.home > header {
 margin-bottom: 0px;
 }
 
-h1{color:#A57513;}
-h3{
+h1 {color:#A57513;}
+
+h3 {
    font-size: 18px;
 }
-h4{
+
+h4 {
    font-size: 14px;
 }
+
+
+
+
+
+/* ==========================================================================
+   Navbar
+   ========================================================================== */
+
+.navbar-default {
+background-color: #988d71;
+background-image: url(../img/nav-bg.jpg) repeat-x;
+border-color: #988d71;
+height:25px;
+}
+
 /* ==========================================================================
    Home
    ========================================================================== */
