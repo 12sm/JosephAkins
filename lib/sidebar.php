@@ -12,12 +12,12 @@
  * @return boolean True will display the sidebar, False will not
  */
 class Roots_Sidebar {
-  private $conditionals = false;
-  private $templates = false;
+  private $conditionals;
+  private $templates;
 
   public $display = true;
 
-  function __construct($conditionals = array('is_page'), $templates = array( 'template-concerts.php', 'template-custom.php')) {
+  function __construct($conditionals = array('is_page()'), $templates = array( 'template-concerts.php', 'template-custom.php')) {
     $this->conditionals = $conditionals;
     $this->templates    = $templates;
 
