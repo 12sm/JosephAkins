@@ -64,6 +64,9 @@ color: #fff!important;
 .store-table-header{
    background-color: #0B5D6B;
 }
+.store-table-header h3{
+   color: #fff;
+}
 
 /* ==========================================================================
    Primary Content
