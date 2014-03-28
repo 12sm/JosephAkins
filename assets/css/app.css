@@ -97,6 +97,16 @@ background-color: #BB9B7F;
 
 #menu-primary-navigation li.menu-facebook, li.menu-twitter {
 text-indent: -9999px;
+background-repeat: no-repeat;
+background-position: center center;
+}
+
+#menu-primary-navigation li.menu-facebook {
+background: url(../img/fb.png);
+}
+
+#menu-primary-navigation li.menu-twitter {
+background: url(../img/tw.png);
 }
 
 /* ==========================================================================
