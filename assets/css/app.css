@@ -20,6 +20,12 @@ margin-bottom: 0px;
 }
 
 h1{color:#A57513;}
+
+.feat-music {font-size:36px;
+    letter-spacing: 1px;
+    font-family: Georgia;
+    color:#3a5b13
+}
 h3{
    font-size: 18px;
 }
