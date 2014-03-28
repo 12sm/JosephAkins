@@ -12,8 +12,8 @@
  * @return boolean True will display the sidebar, False will not
  */
 class Roots_Sidebar {
-  private $conditionals;
-  private $templates;
+  private $conditionals = false;
+  private $templates = false;
 
   public $display = true;
 
