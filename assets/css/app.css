@@ -19,8 +19,8 @@ body { }
 body.home > header {
 margin-bottom: 0px;
 }
-/*#A57513*/
-h1{color:#fff;}
+
+h1{color:#A57513;}
 
 .feat-music {font-size:36px;
     letter-spacing: 1px;
