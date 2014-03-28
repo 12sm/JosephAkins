@@ -11,7 +11,7 @@ body { }
 .col {margin:0 1%;}
 
 .wrap{
-   background: url(../img/field-bg.jpg) no-repeat;
+   background: url(../img/bg-field.jpg) no-repeat;
    background-position: bottom;
    background-size: cover;
 }
