@@ -17,7 +17,7 @@ class Roots_Sidebar {
 
   public $display = true;
 
-  function __construct($conditionals = array('is_page()'), $templates = array( 'template-concerts.php', 'template-custom.php')) {
+  function __construct($conditionals = array('is_page'), $templates = array( 'template-concerts.php', 'template-custom.php')) {
     $this->conditionals = $conditionals;
     $this->templates    = $templates;
 
