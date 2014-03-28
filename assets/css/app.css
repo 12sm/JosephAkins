@@ -21,14 +21,10 @@ body.home > header {
 margin-bottom: 0px;
 }
 
-<<<<<<< HEAD
 h1 {color:#A57513;}
 
-h3 {
-=======
-h2{color:#A57513;}
+h2 {color:#A57513;}
 h3{
->>>>>>> FETCH_HEAD
    font-size: 18px;
 }
 
@@ -45,10 +41,10 @@ h4 {
    ========================================================================== */
 
 .navbar-default {
-background-color: #988d71;
-background-image: url(../img/nav-bg.jpg) repeat-x;
-border-color: #988d71;
-height:25px;
+background-color: #988d71!important;
+background-image: url(../img/nav-bg.jpg) repeat-x!important;
+border-color: #988d71!important;
+height:25px!important;
 }
 
 /* ==========================================================================
