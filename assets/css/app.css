@@ -103,6 +103,11 @@ background-color: #97785D;
 background-color: #BB9B7F;
 }
 
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+color: #5E9244!important;
+background-color: transparent!important;
+}
+
 #menu-primary-navigation li.menu-facebook, li.menu-twitter {
 text-indent: -9999px;
 }
