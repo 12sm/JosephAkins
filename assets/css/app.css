@@ -66,6 +66,18 @@ letter-spacing: .2em!important;
 color: #3a5b13!important;
 }
 
+.navbar-default .navbar-toggle {
+border-color: #B69A81;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+background-color: #97785D;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+background-color: #BB9B7F;
+}
+
 /* ==========================================================================
    Home
    ========================================================================== */
