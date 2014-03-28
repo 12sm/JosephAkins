@@ -21,9 +21,14 @@ body.home > header {
 margin-bottom: 0px;
 }
 
+<<<<<<< HEAD
 h1 {color:#A57513;}
 
 h3 {
+=======
+h2{color:#A57513;}
+h3{
+>>>>>>> FETCH_HEAD
    font-size: 18px;
 }
 
