@@ -29,5 +29,4 @@ http://12southmusic.com/
   
   <!-- TypeKit -->
   <script type="text/javascript" src="//use.typekit.net/xqn6ojd.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>

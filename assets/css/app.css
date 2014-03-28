@@ -57,6 +57,9 @@ box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.25);
 .navbar-default .navbar-nav>li>a {
 font-family: "baltica-web-extra-condensed"!important;
 color: #3e403d!important;
+font-size: 20px!important;
+text-transform: uppercase!important;
+letter-spacing: .2em!important;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
