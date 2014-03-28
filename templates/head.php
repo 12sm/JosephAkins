@@ -26,4 +26,8 @@ http://12southmusic.com/
 
   <link rel="alternate" type="application/rss+xml" title="<?php echo get_bloginfo('name'); ?> Feed" href="<?php echo home_url(); ?>/feed/">
   <link rel="shortcut icon" href="<?php echo of_get_option('favicon_upload'); ?>" />
+  
+  <!-- TypeKit -->
+  <script type="text/javascript" src="//use.typekit.net/xqn6ojd.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
