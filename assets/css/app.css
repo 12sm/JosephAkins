@@ -8,17 +8,20 @@
    ========================================================================== */
 
 body { }
+
 .col {margin:0 1%;}
 
-.wrap{
-   background: url(../img/field-bg.jpg) no-repeat;
-   background-position: bottom;
+.wrap {
+   background: url(../img/bg-field.jpg) no-repeat;
+   background-position: center center;
    background-size: cover;
 }
+
 body.home > header {
 margin-bottom: 0px;
 }
 
+<<<<<<< HEAD
 h1{color:#A57513;}
 
 .feat-music {font-size:36px;
@@ -26,12 +29,34 @@ h1{color:#A57513;}
     font-family: Georgia;
     color:#3a5b13
 }
+=======
+h1 {color:#A57513;}
+
+h2 {color:#A57513;}
+>>>>>>> FETCH_HEAD
 h3{
    font-size: 18px;
 }
-h4{
+
+h4 {
    font-size: 14px;
 }
+
+
+
+
+
+/* ==========================================================================
+   Navbar
+   ========================================================================== */
+
+.navbar-default {
+background-color: #988d71!important;
+background-image: url(../img/nav-bg.jpg) repeat-x!important;
+border-color: #988d71!important;
+height:25px!important;
+}
+
 /* ==========================================================================
    Home
    ========================================================================== */
