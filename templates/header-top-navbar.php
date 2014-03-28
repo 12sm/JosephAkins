@@ -24,6 +24,7 @@ if ( is_page( 'about' ) || '2' == $post->post_parent ) {
           wp_nav_menu(array('theme_location' => 'primary_navigation', 'menu_class' => 'nav navbar-nav'));
         endif;
       ?>
+      
     </nav>
   </div>
 </header>

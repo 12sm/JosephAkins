@@ -99,3 +99,43 @@
 		[wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
 	[/wpv-no-items-found]
 [wpv-layout-end]
+
+<!--Store New-->
+[wpv-layout-start]
+	[wpv-items-found]
+	<!-- wpv-loop-start -->
+		<div class="row">
+      <div class="col-sm-4">
+        [wpv-view name="featured-product"]
+      </div>
+      <div class='col-sm-8'>
+<div class="row store-table-header">
+	<div class='col-sm-5'>
+      <h4>Preview Song/Sheet Music</h4>
+	</div>
+	<div class="col-sm-2">
+		<h4>Title</h4>
+	</div>
+	<div class="col-sm-5">
+      <h4>Price/Add to Cart</h4>
+	</div>
+</div>
+		<wpv-loop>
+          <div class="row-store">
+          <div class='col-sm-5'>
+      <h4>Preview Song/Sheet Music</h4>
+	</div>
+	<div class="col-sm-2">
+		<h4>[wpv-post-title]</h4>
+	</div>
+	<div class="col-sm-5">
+          [wpv-view name="store-children" wpvprchildof="[wpv-post-id]"]
+            </div>
+            </div>
+		</wpv-loop>
+	<!-- wpv-loop-end -->
+	[/wpv-items-found]
+	[wpv-no-items-found]
+		[wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
+	[/wpv-no-items-found]
+[wpv-layout-end]
