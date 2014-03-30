@@ -51,6 +51,17 @@ var Roots = {
       // JavaScript to be fired on the about us page
     }
   }
+
+  store:{
+    url: '/soundmanager2_flash9.swf',
+  flashVersion: 9, // optional: shiny features (default = 8)
+  // optional: ignore Flash where possible, use 100% HTML5 mode
+  // preferFlash: false,
+  onready: function() {
+    // Ready to use; soundManager.createSound() etc. can now be called.
+  }
+});
+  }
 };
 
 // The routing fires all common scripts, followed by the page specific scripts.
