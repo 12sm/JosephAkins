@@ -7,7 +7,7 @@ if ( is_front_page()) {
     layerslider(1);
     } ?>
 <!--LayerSlider end-->
-  <div class="container">
+  <div class="container-fluid nav-container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="sr-only">Toggle navigation</span>

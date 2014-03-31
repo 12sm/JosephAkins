@@ -70,7 +70,10 @@ h4 {
 /* ==========================================================================
    Navbar
    ========================================================================== */
-
+.nav-container{
+  background-color: #988d71!important;
+background-image: url(../img/nav-bg.jpg)!important;
+}
 .navbar-default {
 background-color: #988d71!important;
 background-image: url(../img/nav-bg.jpg)!important;
@@ -125,6 +128,7 @@ background: url(../img/tw.png);
 background-repeat: no-repeat;
 background-position: center center;
 }
+
 
 .container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
 background-color: #988d71!important;
