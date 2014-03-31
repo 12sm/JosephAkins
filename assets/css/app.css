@@ -436,7 +436,14 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
  }
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) { }
+@media (min-width: 992px) {
+
+nav{
+  /*fixes overlapping of navbar*/
+  margin-bottom: -1px;
+}
+
+ }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { }
