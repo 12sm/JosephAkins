@@ -23,7 +23,7 @@ var Roots = {
   common: {
     init: function() {
       // JavaScript to be fired on all pages
-      
+      $('.vid-div').fitVids();
     }
   },
   // Home page
@@ -52,16 +52,6 @@ var Roots = {
     }
   },
 
-video:{
-init: function() {
-  $('.vid-div').fitVids();
-  }
-},
-media:{
-init: function() {
-  $('.vid-div').fitVids();
-  }
-},
 
   store:{
 init: function() {
