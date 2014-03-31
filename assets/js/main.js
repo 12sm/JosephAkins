@@ -309,7 +309,7 @@ soundManager.onready(function() {
     }
     }
   }
-};
+
 
 // The routing fires all common scripts, followed by the page specific scripts.
 // Add additional events for more control over timing e.g. a finalize event
