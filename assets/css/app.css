@@ -411,8 +411,8 @@ background-color:#FFF;
 
 .blog-img-container {
 height: 0px;
-background-position: 50% 0px!important;
-padding-bottom: 60%;
+background-position: center center!important;
+padding-bottom: 75%;
 }
 
 .hentry .entry-content {
