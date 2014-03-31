@@ -55,7 +55,6 @@ var Roots = {
   store:{
 init: function() {
 
- init: function() {
          soundManager.setup({
          url: '/assets/js',
        flashVersion: 9, // optional: shiny features (default = 8)
