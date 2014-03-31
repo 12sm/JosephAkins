@@ -396,7 +396,31 @@ display: none;
 .hentry .entry-content { }
 .hentry footer { }
 
+.individual-post .post-footer .addthis_toolbox {
+float: right;
+width: 70%;
+}
 
+.meta-date-share {
+padding: 1%;  
+background-color:#FFF;
+}
+.blog-top{
+   margin-top: 4%;
+}
+
+.blog-img-container {
+height: 0px;
+background-position: 50% 0px!important;
+padding-bottom: 60%;
+}
+
+.hentry .entry-content {
+-moz-column-count: 2;
+-moz-column-gap: 20px;
+-webkit-column-count: 2;
+-webkit-column-gap: 30px;
+}
 
 /* ==========================================================================
    Footer
