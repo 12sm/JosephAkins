@@ -415,12 +415,6 @@ background-position: center center!important;
 padding-bottom: 75%;
 }
 
-.hentry .entry-content {
--moz-column-count: 2;
--moz-column-gap: 20px;
--webkit-column-count: 2;
--webkit-column-gap: 30px;
-}
 
 /* ==========================================================================
    Footer
