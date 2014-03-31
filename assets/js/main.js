@@ -51,6 +51,12 @@ var Roots = {
       // JavaScript to be fired on the about us page
     }
   },
+
+video:{
+init: function() {
+  $('.vid-div').fitVids();
+  }
+},
 media:{
 init: function() {
   $('.vid-div').fitVids();
