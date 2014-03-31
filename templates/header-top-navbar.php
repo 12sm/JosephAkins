@@ -2,7 +2,7 @@
 <!--LayerSlider begin-->
 <?php
 
-if ( is_page( 'about', ' ' ) || is_home() || '2' == $post->post_parent ) {    
+if ( is_home()) {    
     // the page is "About", or the parent of the page is "About"
     layerslider(1);
     } ?>
