@@ -150,6 +150,10 @@ background-position: center;
    display: none!important;
 }
 
+.music-carousel-item img{
+  max-height: 209px;
+}
+
 /*Owl Control positioning*/
 .owl-theme .owl-controls .owl-buttons .owl-prev {position:absolute; left:0px;}
 .owl-theme .owl-controls .owl-buttons .owl-next {position:absolute; right:0px;}
