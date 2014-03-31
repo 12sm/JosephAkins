@@ -264,6 +264,15 @@ color: #fff!important;
 
 #lightbox img{ border: none; } 
 #overlay img{ border: none; }
+/*End Lightbox*/
+
+.preview-container {
+background-color: #E1DED5;
+padding: 3px;
+}
+.preview-container>* {
+font-size: 11px;
+}
 /* ==========================================================================
    Primary Content
    ========================================================================== */
