@@ -61,7 +61,7 @@ init: function() {
        // optional: ignore Flash where possible, use 100% HTML5 mode
        // preferFlash: false,
      });
-    }
+    
 
 
   // ** Audio Player  ** //
