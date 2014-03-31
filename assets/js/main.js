@@ -55,6 +55,16 @@ var Roots = {
   store:{
 init: function() {
 
+ init: function() {
+         soundManager.setup({
+         url: '/assets/js',
+       flashVersion: 9, // optional: shiny features (default = 8)
+       // optional: ignore Flash where possible, use 100% HTML5 mode
+       // preferFlash: false,
+     });
+    }
+
+
   // ** Audio Player  ** //
     
     $(function() { 
