@@ -308,7 +308,7 @@ soundManager.onready(function() {
       }
     }
     }
-  }
+  };
 
 
 // The routing fires all common scripts, followed by the page specific scripts.
