@@ -2,8 +2,8 @@
 <!--LayerSlider begin-->
 <?php
 
-if ( is_home()) {    
-    // the page is "About", or the parent of the page is "About"
+if ( is_front_page()) {    
+    
     layerslider(1);
     } ?>
 <!--LayerSlider end-->
