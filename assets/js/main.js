@@ -306,7 +306,7 @@ soundManager.onready(function() {
   }
 });
       }
-    });
+    };
     }
   }
 };
