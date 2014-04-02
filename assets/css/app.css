@@ -241,8 +241,8 @@ p.pause:before{
   left: 5px;
   position: relative;
 }
- p.loading:before{
-  content: "../img/spinnerLarge.gif";
+ p.loading{
+  background-image: url("../img/spinnerLarge.gif");
   top: 5px;
   left: 5px;
   position: relative;
