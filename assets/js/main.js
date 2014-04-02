@@ -44,6 +44,9 @@ var Roots = {
        pagination: false,
        scrollPerPage : true
       });
+    audiojs.events.ready(function() {
+    var as = audiojs.createAll();
+  });
     }
   },
   // About us page, note the change from about-us to about_us.
@@ -56,6 +59,10 @@ var Roots = {
 
   store:{
 init: function() {
+
+  audiojs.events.ready(function() {
+    var as = audiojs.createAll();
+  });
 
          soundManager.setup({
          url: '/assets/js',
