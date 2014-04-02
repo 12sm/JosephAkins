@@ -168,7 +168,7 @@ background-position: center;
 }
 
 .music-carousel-item img{
-  max-height: 180px;
+  max-height: 165px;
 }
 
 /*Owl Control positioning*/
@@ -257,7 +257,7 @@ p.pause:before{
   top:-5px;
 }
 .bio-home{
-margin-bottom: 25px;
+margin-top: 25px;
 }
 .line{
   background: url('../img/JA-line1.png') cover no-repeat;
