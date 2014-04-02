@@ -60,6 +60,8 @@ var Roots = {
   store:{
 init: function() {
 
+  $('.add_to_cart_button').removeClass('button');
+
   audiojs.events.ready(function() {
     var as = audiojs.createAll();
   });
