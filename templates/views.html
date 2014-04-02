@@ -187,3 +187,32 @@
 		[wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
 	[/wpv-no-items-found]
 [wpv-layout-end]
+
+[wpv-layout-start]
+	[wpv-items-found]
+	<!-- wpv-loop-start -->
+		<wpv-loop>
+          <div class="col-sm-6">
+            <div class="row">
+              <div class="col-sm-12">
+                <h3>[types field="headline" output="raw"][/types]</h3>
+               </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <p>[types field="bio-section" output="raw"][/types]</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="blog-img-container">
+              [types field="bio-image" size="medium" align="none"][/types]
+            </div>
+          </div>
+		</wpv-loop>
+	<!-- wpv-loop-end -->
+	[/wpv-items-found]
+	[wpv-no-items-found]
+		[wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
+	[/wpv-no-items-found]
+[wpv-layout-end]
