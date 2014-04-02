@@ -592,3 +592,18 @@ nav{
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { }
+
+.woocommerce {font-size: 100%;
+              margin:0px;
+              line-height:1em;
+              Font-family: "Georgia"; 
+              text-decoration: none; 
+              overflow:visible;
+              padding:6px 10px; 
+              font-weight: bold;
+              left: auto;
+              color: #045F6B;
+              background:#E1DED5;
+              white-space: nowrap; 
+              display: inline-block; 
+}
