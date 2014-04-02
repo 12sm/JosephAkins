@@ -419,8 +419,33 @@ height: 0px;
 background-position: center center!important;
 padding-bottom: 75%;
 background-image: url(../img/blog-default.jpg);
+background-size: cover;
 }
 
+.individual-post {
+background-color: #FFF;
+padding-top: 1%;
+border: 1px solid rgb(238, 238, 238);
+}
+
+.individual-post .wp-post-image {display:none;}
+
+.individual-post .excerpt {
+height: 155px;
+overflow: hidden; 
+}
+
+.individual-post .post-footer {
+padding: 10px;
+text-align: left;
+border-top: 1px solid #ededed;
+}
+
+.individual-post .post-footer .post-date {
+color: #ccc!important;
+font-size: 10px;
+text-transform: uppercase;
+}
 /* ==========================================================================
    Footer
    ========================================================================== */

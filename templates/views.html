@@ -139,3 +139,51 @@
 		[wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
 	[/wpv-no-items-found]
 [wpv-layout-end]
+
+
+<!--Blog Views-->
+[wpv-layout-start]
+	[wpv-items-found]
+	<div class="row col blog-top">
+  <div class="col-sm-12">
+  	<div class="row">
+ 	<wpv-loop wrap="3">
+    <div class="col-md-4 col-sm-6 col-xs-12 individual-post">
+          <a href="[wpv-post-url]">
+            <div class="blog-inner-wrapper">
+            <div class="blog-img-container">
+            [wpv-post-featured-image size="large"]
+            </div>
+            <div class="excerpt">
+              <h3>[wpv-post-title]</h3>
+            </div>
+            <div class="row post-footer">
+              <div class="col-xs-5 post-date">
+                <i class="fa fa-calendar"></i> [wpv-post-date format="m/d/Y"]
+              </div>
+        		<div class="col-xs-7 share-buttons">
+<div class="addthis_toolbox addthis_default_style addthis_16x16_style" addthis:url="[wpv-post-url]">
+<a class="addthis_button_facebook"></a>
+<a class="addthis_button_twitter"></a>
+<a class="addthis_button_compact"></a><a class="addthis_counter addthis_bubble_style"></a>
+</div>
+              </div>
+            </div>
+          </a>
+          </div>
+          </div> 
+  </wpv-loop>
+   </div>
+  </div>
+</div>
+
+	[/wpv-items-found]
+	[wpv-no-items-found]
+		[wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
+	[/wpv-no-items-found]
+[wpv-layout-end]
+	[/wpv-items-found]
+	[wpv-no-items-found]
+		[wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
+	[/wpv-no-items-found]
+[wpv-layout-end]
