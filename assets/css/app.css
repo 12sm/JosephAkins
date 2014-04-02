@@ -242,7 +242,7 @@ p.pause:before{
   position: relative;
 }
  p.loading:before{
-  content: "\f110";
+  content: "../img/spinnerLarge.gif";
   top: 5px;
   left: 5px;
   position: relative;
