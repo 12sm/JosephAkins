@@ -10,7 +10,7 @@
 			</div>
 		</div>
 		<div class="row">
-		<div class="colsm-12 line">
+		<div class="col-sm-12 line">
 		</div>
 		</div>
 		<div class="row bio-home">
