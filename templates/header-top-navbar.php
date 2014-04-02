@@ -2,7 +2,7 @@
 <!--LayerSlider begin-->
 <?php
 
-if ( is_front_page()) {    
+if ( is_front_page()) || is_page('store') {    
     
     layerslider(1);
     } ?>
