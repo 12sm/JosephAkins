@@ -77,7 +77,6 @@ a{
 .nav-container{
   background-color: #988d71!important;
 background-image: url(../img/nav-bg.jpg)!important;
-margin-left: 141px;
 }
 .navbar-default {
 background-color: #988d71!important;
@@ -87,6 +86,7 @@ height: 25px!important;
 -webkit-box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.25);
 -moz-box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.25);
 box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.25);
+margin-left: 141px;
 }
 
 .navbar-default .navbar-nav>li>a {
