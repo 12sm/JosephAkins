@@ -243,7 +243,8 @@ p.pause:before{
   position: relative;
 }
  p.loading{
-  background-image: url("../img/spinnerLarge.gif");
+  background-image: url("../img/spinnerLarge.gif")!important;
+  background-size: contain!important;
   top: 5px;
   left: 5px;
   position: relative;
