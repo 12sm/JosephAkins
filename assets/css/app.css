@@ -88,6 +88,10 @@ height: 25px!important;
 box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.25);
 }
 
+.navbar-nav { 
+margin-left: 141px;
+}
+
 .navbar-default .navbar-nav>li>a {
 font-family: "baltica-web-extra-condensed"!important;
 color: #3e403d!important;
