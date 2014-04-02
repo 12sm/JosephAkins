@@ -256,6 +256,9 @@ p.pause:before{
   position: relative;
   top:-5px;
 }
+.bio-home{
+margin-bottom: 25px;
+}
 
 /* ==========================================================================
    Header
