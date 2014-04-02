@@ -207,10 +207,10 @@ overflow: hidden;
   color: #eeeeee;
 }
 .audiojs .play-pause{
-  border-right: 0px solid #000;
+  border-right: 0px solid #000!important;
 }
 .audiojs .time{
-  border-left: 0px solid #000;
+  border-left: 0px solid #000!important;
   color: #000!important;
 }
 /* ==========================================================================
