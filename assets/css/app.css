@@ -39,6 +39,7 @@ h2 {
     font-family: "Georgia";
     font-style: Normal;
     font-size: 35px;
+    letter-spacing:.08em;
     }
 
 p { color:#000000;
