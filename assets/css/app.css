@@ -215,6 +215,7 @@ overflow: hidden;
 }
 .audiojs .play-pause{
   border-right: 0px solid #000!important;
+  width: 40px;
 }
 .audiojs .time{
   border-left: 0px solid #000!important;
@@ -244,7 +245,7 @@ p.pause:before{
   position: relative;
 }
  p.loading{
-  background-image: url("../img/spinnerLarge.gif")!important;
+  background: no-repeat center url("../img/spinnerLarge.gif")!important;
   background-size: contain!important;
   position: relative;
 }
