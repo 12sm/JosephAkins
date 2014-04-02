@@ -593,7 +593,15 @@ nav{
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { }
 
+<<<<<<< HEAD
 .woocommerce, a.button {font-size: 100%;
+=======
+<<<<<<< HEAD
+.woocommerce a.button {font-size: 100%;
+=======
+/*.woocommerce, a.button {font-size: 100%;
+>>>>>>> FETCH_HEAD
+>>>>>>> 5c1751b74deb8d05dda42559560d31d59476042d
               margin:0px;
               line-height:1em;
               Font-family: "Georgia"; 
