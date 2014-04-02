@@ -228,13 +228,13 @@ line-height: 1;
 -moz-osx-font-smoothing: grayscale;
 font-size: 1.3em;
 }
-p.play{
+p.play:before{
   content: "\f04b";
   top: 5px;
   left: 5px;
   position: relative;
 }
-p.pause{
+p.pause:before{
   content: "\f04c";
   top: 5px;
   left: 5px;
