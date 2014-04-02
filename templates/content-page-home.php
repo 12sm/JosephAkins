@@ -9,5 +9,8 @@
 			<?php echo do_shortcode('[wpv-view name="music-carousel"]') ?>
 			</div>
 		</div>
+		<div class="row">
+			<?php echo do_shortcode('[wpv-view name="Bio"]') ?>
+		</div>
 	</div>
 </div>
