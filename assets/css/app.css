@@ -207,6 +207,13 @@ overflow: hidden;
 .audiojs .progress{
   color: #eeeeee;
 }
+.audiojs .play-pause{
+  border-right: 0px solid #000;
+}
+.audiojs .time{
+  border-left: 0px solid #000;
+  color: #000!important;
+}
 /* ==========================================================================
    Header
    ========================================================================== */
