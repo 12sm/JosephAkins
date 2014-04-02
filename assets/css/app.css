@@ -193,7 +193,7 @@ overflow: hidden;
 }
 .scrubber{
   background-color: rgba(0,0,0,0)!important;
-  border-color: 0px solid rgba(0,0,0,0);
+  border-color: 1px solid #000;
 }
 .audiojs{
   background-color: rgba(0,0,0,0)!important;
