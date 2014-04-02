@@ -593,21 +593,17 @@ nav{
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { }
 
-<<<<<<< HEAD
 .woocommerce a.button {font-size: 100%;
-=======
-/*.woocommerce, a.button {font-size: 100%;
->>>>>>> FETCH_HEAD
+
               margin:0px;
               line-height:1em;
-              Font-family: "Georgia"; 
+              Font-family: "Georgia"!important; 
               text-decoration: none; 
               overflow:visible;
               padding:6px 10px; 
-              font-weight: bold;
               left: auto;
-              color: #045F6B;
-              background:#E1DED5;
+              color: #045F6B!important;
+              background:#E1DED5!important;
               white-space: nowrap; 
               display: inline-block; 
-}*/
+
