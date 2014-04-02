@@ -45,7 +45,8 @@ h2 {
 p { color:#000000;
     font-family:"Georgia";
     font-style:"Normal";
-    font-size:12px;
+    font-size:14px;
+    letter-spacing:.05em; 
   }
     
 h3{
