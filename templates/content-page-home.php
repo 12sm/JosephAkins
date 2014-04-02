@@ -10,7 +10,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<?php echo do_shortcode('[wpv-view name="Bio"]') ?>
+			<?php echo do_shortcode('[wpv-view name="Bio-Home"]') ?>
 		</div>
 	</div>
 </div>
