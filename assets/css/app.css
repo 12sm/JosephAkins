@@ -248,6 +248,7 @@ p.pause:before{
   background: no-repeat center url("../img/spinnerLarge.gif")!important;
   background-size: contain!important;
   position: relative;
+  top:-5px;
 }
 
 /* ==========================================================================
