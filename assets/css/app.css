@@ -283,6 +283,7 @@ color: #fff!important;
 .preview-container {
 background-color: #E1DED5;
 padding: 3px;
+text-align: center;
 }
 .preview-container>* {
 font-size: 11px;
