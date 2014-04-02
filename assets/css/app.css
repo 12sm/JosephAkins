@@ -188,7 +188,13 @@ border-left: 0px;
 border-bottom: 0px;
 overflow: hidden;
 }
-
+#audiojs_wrapper0{
+  width: 100%;
+}
+.scrubber{
+  background-color: rgba(0,0,0,0)!important;
+  border-color: 0px solid rgba(0,0,0,0);
+}
 .audiojs{
   background-color: rgba(0,0,0,0)!important;
   background-image: none!important
