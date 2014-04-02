@@ -218,6 +218,27 @@ overflow: hidden;
   border-left: 0px solid #000!important;
   color: #000!important;
 }
+.play-pause>p{
+  display: inline-block;
+font-family: FontAwesome;
+font-style: normal;
+font-weight: normal;
+line-height: 1;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+p.play{
+  content: "\f04b";
+  top: 5px;
+  left: 5px;
+  position: relative;
+}
+p.pause{
+  content: "\f04c";
+  top: 5px;
+  left: 5px;
+  position: relative;
+}
 /* ==========================================================================
    Header
    ========================================================================== */
