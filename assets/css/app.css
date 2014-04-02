@@ -429,7 +429,7 @@ background-image: url(../img/blog-default.jpg);
 background-size: cover;
 }
 
-.individual-post {
+.individual-post, .music-wrapper{
 background-color: #FFF;
 padding-top: 1%;
 border: 1px solid rgb(238, 238, 238);
