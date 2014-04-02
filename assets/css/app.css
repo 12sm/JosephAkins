@@ -384,7 +384,7 @@ color:#045F6B
 .preview-link>i{
   font-size: 1.5em!important;
 }
- a.button .add_to_cart_button {font-size: 100%;
+.add_to_cart_button {font-size: 100%;
               margin:0px;
               line-height:1em;
               Font-family: "Georgia"!important; 
