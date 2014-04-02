@@ -77,6 +77,7 @@ a{
 .nav-container{
   background-color: #988d71!important;
 background-image: url(../img/nav-bg.jpg)!important;
+margin-left: 141px;
 }
 .navbar-default {
 background-color: #988d71!important;
@@ -94,7 +95,6 @@ color: #3e403d!important;
 font-size: 20px!important;
 text-transform: uppercase!important;
 letter-spacing: .2em!important;
-margin-left: 141px;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
