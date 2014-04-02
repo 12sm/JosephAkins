@@ -229,7 +229,7 @@ line-height: 1;
 -moz-osx-font-smoothing: grayscale;
 font-size: 1.3em;
 }
-p.play:before, p.loading:before{
+p.play:before{
   content: "\f04b";
   top: 5px;
   left: 5px;
@@ -241,6 +241,13 @@ p.pause:before{
   left: 5px;
   position: relative;
 }
+ p.loading:before{
+  content: "\f110";
+  top: 5px;
+  left: 5px;
+  position: relative;
+}
+
 /* ==========================================================================
    Header
    ========================================================================== */
