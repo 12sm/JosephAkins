@@ -593,7 +593,7 @@ nav{
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { }
 
-.woocommerce {font-size: 100%;
+.woocommerce, a.button {font-size: 100%;
               margin:0px;
               line-height:1em;
               Font-family: "Georgia"; 
