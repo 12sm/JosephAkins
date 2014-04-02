@@ -598,18 +598,6 @@ nav{
 
 <<<<<<< HEAD
 .woocommerce a.button {font-size: 100%;
-
-=======
-<<<<<<< HEAD
-.woocommerce, a.button {font-size: 100%;
-=======
-<<<<<<< HEAD
-.woocommerce a.button {font-size: 100%;
-=======
-/*.woocommerce, a.button {font-size: 100%;
->>>>>>> FETCH_HEAD
->>>>>>> 5c1751b74deb8d05dda42559560d31d59476042d
->>>>>>> FETCH_HEAD
               margin:0px;
               line-height:1em;
               Font-family: "Georgia"!important; 
@@ -621,8 +609,4 @@ nav{
               background:#E1DED5!important;
               white-space: nowrap; 
               display: inline-block; 
-<<<<<<< HEAD
-
-=======
 }
->>>>>>> FETCH_HEAD
