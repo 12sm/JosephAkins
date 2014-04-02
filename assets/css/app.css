@@ -219,7 +219,8 @@ overflow: hidden;
   border-left: 0px solid #000!important;
   color: #000!important;
 }
-.play-pause>p{
+
+/*.play-pause>p{
   display: inline-block;
 font-family: FontAwesome;
 font-style: normal;
@@ -246,7 +247,7 @@ p.pause:before{
   top: 5px;
   left: 5px;
   position: relative;
-}
+}*/
 
 /* ==========================================================================
    Header
