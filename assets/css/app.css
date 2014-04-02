@@ -271,13 +271,13 @@ p.pause:before{
 .store-table-header{
    background-color: #0B5D6B;
    margin: 0 0%;
+    margin-bottom: 10px; 
 }
 .store-table-header h3{
    color: #fff;
 }
 .store-row{
    margin: 15px 1%;
-   margin-top: 10px;
 }
 .store-buy{
    text-align: center;
