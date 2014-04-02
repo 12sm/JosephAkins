@@ -277,6 +277,7 @@ p.pause:before{
 }
 .store-row{
    margin: 15px 1%;
+   margin-top: 10px;
 }
 .store-buy{
    text-align: center;
