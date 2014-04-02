@@ -228,7 +228,7 @@ line-height: 1;
 -moz-osx-font-smoothing: grayscale;
 font-size: 1.3em;
 }
-p.play:before{
+p.play:before, p.loading:before{
   content: "\f04b";
   top: 5px;
   left: 5px;
