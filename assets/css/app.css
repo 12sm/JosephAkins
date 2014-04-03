@@ -641,6 +641,10 @@ background-size: cover;
  -moz-column-count: 1;
  -webkit-column-count: 1;
  }
+ .single-video header{
+  /* Cheap CSS Fix */
+  display: none!important;
+ }
 
 .individual-post, .music-wrapper{
 background-color: #FFF;
