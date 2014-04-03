@@ -556,6 +556,10 @@ padding: 2%;
 
 .individual-post .wp-post-image {display:none;}
 
+.wp-post-image {
+margin: 3% 0;
+}
+
 .individual-post .excerpt {
 height: 155px;
 overflow: hidden; 
