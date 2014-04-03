@@ -637,6 +637,11 @@ background-size: cover;
  -webkit-column-gap: 30px;
  }
 
+ .single-video .hentry .entry-content {
+ -moz-column-count: 1;
+ -webkit-column-count: 1;
+ }
+
 .individual-post, .music-wrapper{
 background-color: #FFF;
 padding-top: 1%;
