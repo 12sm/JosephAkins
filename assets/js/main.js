@@ -27,6 +27,15 @@ var Roots = {
       $(".blog-img-container").imgLiquid();
     }
   },
+
+  // Media page
+  media:{
+    init: function(){
+
+      $(".gal-thumb").imgLiquid();
+
+    }
+  },
   // Home page
   home: {
     init: function() {
