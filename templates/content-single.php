@@ -5,9 +5,12 @@
     <?php if (is_single('video')) {
     } else { 
     echo "<header>
-      <h1 class="entry-title"><?php the_title(); ?></h1>
-      <?php get_template_part('templates/entry-meta'); ?>
-    </header>";
+      <h1 class="entry-title">"
+      the_title();
+      echo "</h1>"
+      get_template_part('templates/entry-meta');
+      echo "</header>";
+      }
     ?>
     <div class="entry-content">
       <?php the_content(); ?>
