@@ -540,6 +540,13 @@ background-image: url(../img/blog-default.jpg);
 background-size: cover;
 }
 
+.hentry .entry-content {
+ -moz-column-count: 2;
+ -moz-column-gap: 20px;
+ -webkit-column-count: 2;
+ -webkit-column-gap: 30px;
+ }
+
 .individual-post, .music-wrapper{
 background-color: #FFF;
 padding-top: 1%;
