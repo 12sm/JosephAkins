@@ -84,7 +84,7 @@ function roots_gallery($attr) {
   $output = '<div class="gallery gallery-' . $id . '-' . $unique . '">';
 
   $i = 0;
-  $output .= '<div class="row gallery-row">': '';
+  $output .= '<div class="row gallery-row">';
   foreach ($attachments as $id => $attachment) {
     switch($link) {
       case 'file':
