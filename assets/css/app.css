@@ -282,6 +282,12 @@ margin-bottom: 30px;
 word-spacing: 2px;
 line-height: 1.5;
 }
+.two-col {
+-moz-column-count: 2;
+-moz-column-gap: 50px;
+-webkit-column-count: 2;
+-webkit-column-gap : 50px;
+}
 
 /* ==========================================================================
    Content
