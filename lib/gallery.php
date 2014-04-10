@@ -84,6 +84,7 @@ function roots_gallery($attr) {
   $output = '<div class="gallery gallery-' . $id . '-' . $unique . '">';
 
   $i = 0;
+  $output .= '<div class="row gallery-row">': '';
   foreach ($attachments as $id => $attachment) {
     switch($link) {
       case 'file':
@@ -96,13 +97,16 @@ function roots_gallery($attr) {
         $image = wp_get_attachment_link($id, $size, true, false);
         break;
     }
-    $output .= ($i % $columns == 0) ? '<div class="row gallery-row">': '';
+   
     $output .= $image;
 
     if (trim($attachment->post_excerpt)) {
       $output .= '<div class="caption hidden">' . wptexturize($attachment->post_excerpt) . '</div>';
     }
 
+   
+    $i++;
+    $output .= ($i % $columns == 0);
   }
 
   $output .= ($i % $columns != 0 );
