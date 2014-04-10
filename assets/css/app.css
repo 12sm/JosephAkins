@@ -653,6 +653,11 @@ background-size: cover;
  -webkit-column-gap: 30px;
  }
 
+ .single-photos .hentry .entry-content {
+ -moz-column-count: 1;
+ -webkit-column-count: 1;
+ }
+
  .single-video .hentry .entry-content {
  -moz-column-count: 1;
  -webkit-column-count: 1;
