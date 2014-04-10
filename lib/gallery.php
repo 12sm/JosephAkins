@@ -103,12 +103,12 @@ function roots_gallery($attr) {
       $output .= '<div class="caption hidden">' . wptexturize($attachment->post_excerpt) . '</div>';
     }
 
-    $output .= '</div>';
+   
     $i++;
-    $output .= ($i % $columns == 0) ? '</div>' : '';
+    $output .= ($i % $columns == 0);
   }
 
-  $output .= ($i % $columns != 0 ) ? '</div>' : '';
+  $output .= ($i % $columns != 0 );
   $output .= '</div>';
 
   return $output;
