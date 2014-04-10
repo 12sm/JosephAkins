@@ -62,9 +62,16 @@ var Roots = {
   about_us: {
     init: function() {
       // JavaScript to be fired on the about us page
+      $('.attachment-thumbnail').addClass('img-responsive');
+      $('.gallery-row').children('.col-sm-3').removeClass('col-sm-3').addClass('col-sm-4');
     }
   },
 
+  single_photos:{
+    init: function() {
+      // JavaScript to be fired on the about us page
+    }
+  },
 
   store:{
 init: function() {
