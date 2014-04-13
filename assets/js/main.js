@@ -56,6 +56,8 @@ var Roots = {
     audiojs.events.ready(function() {
     var as = audiojs.createAll();
   });
+    
+    $('.add_to_cart_button').removeClass('button');
     }
   },
   // About us page, note the change from about-us to about_us.
