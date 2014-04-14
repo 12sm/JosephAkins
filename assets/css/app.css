@@ -384,7 +384,7 @@ content: "\f04b";
   }
 
   /*Lightbox*/
-  /*#lightbox{
+  #lightbox{
   background-color:#eee;
   padding: 10px;
   border-bottom: 2px solid #666;
@@ -398,7 +398,7 @@ content: "\f04b";
 #keyboardMsg{ float: right; }
 
 #lightbox img{ border: none; } 
-#overlay img{ border: none; }*/
+#overlay img{ border: none; }
 /*End Lightbox*/
 
 .preview-container {
