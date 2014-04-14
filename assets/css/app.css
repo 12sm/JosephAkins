@@ -313,6 +313,7 @@ margin-bottom: 15px;
 }
 .store-buy{
    text-align: center;
+   margin-top: 5px;
 }
 .title{
    font-size: 10px;
@@ -763,7 +764,11 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 @media (min-width: 768px) {
 .col,
 .post-nav {margin:0 10%;}
+
+.store-buy{
+  margin-top: 0px!important;
  }
+}
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
