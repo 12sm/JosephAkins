@@ -712,6 +712,10 @@ footer{
 }
 .content-info { }
 
+.credits{
+  text-align: center;
+}
+
 #social ul {margin:0px; padding:0px; list-style: none;}
 #social li {margin:0px; padding: 0px list-style:none; display: block; float:left;}
 #social li a {padding: 10px;}
