@@ -657,7 +657,9 @@ margin-right: 25px;
 float: right;
 width: 70%;
 }
-
+.addthis_counter{
+  float: right;
+}
 
 .meta-date-share {
 padding: 1%;  
@@ -791,6 +793,10 @@ nav{
  }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { }
+@media (min-width: 1200px) { 
+.addthis_counter{
+  float: none;
+}
+}
 
 
