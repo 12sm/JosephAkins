@@ -459,7 +459,7 @@ button#cboxClose {
 float: right;
 }
 
-#cboxWrapper {
+.cboxPhoto {
 padding: 25px;
 background: #fff;
 border: 1px solid #fff;
