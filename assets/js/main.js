@@ -26,9 +26,8 @@ var Roots = {
       $('.vid-div').fitVids();
       $(".blog-img-container").imgLiquid();
        $('.thumbnail').colorbox({
-        width: '60%', 
         className: 'img-responsive',
-        innerWidth: '45%'
+        innerWidth: '55%'
         });
     }
   },
