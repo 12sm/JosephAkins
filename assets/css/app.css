@@ -318,7 +318,9 @@ margin-bottom: 15px;
 .title{
    font-size: 10px;
 }
-
+.row-store {
+margin-top: 35px;
+}
 
 .sm2_link>.fa :before, .sm2_paused>.fa:before {
 content: "\f04b";
@@ -768,6 +770,10 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 .store-buy{
   margin-top: 0px!important;
  }
+
+ .row-store {
+margin-top: 15px;
+}
 }
 
 /* Medium devices (desktops, 992px and up) */
