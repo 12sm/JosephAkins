@@ -108,11 +108,11 @@ function roots_gallery($attr) {
     $output .= ($i % $columns == 0) ? '</div>' : '';
   }
 
-  $output .= ($i % $columns != 0 ) ? '</div>' : '';
   $output .= '</div>';
 
   return $output;
 }
+$output .= '</div>';
 if (current_theme_supports('bootstrap-gallery')) {
   remove_shortcode('gallery');
   add_shortcode('gallery', 'roots_gallery');
