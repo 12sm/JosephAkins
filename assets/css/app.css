@@ -319,7 +319,7 @@ margin-bottom: 15px;
 }
 
 
-.preview-link>.fa:before, .sm2_paused>.fa:before {
+.preview-link .inline-playable>.fa:before, .sm2_paused>.fa:before {
 content: "\f144";
 }
 .sm2_playing>.fa:before{
