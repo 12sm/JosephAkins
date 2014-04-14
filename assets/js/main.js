@@ -27,7 +27,8 @@ var Roots = {
       $(".blog-img-container").imgLiquid();
        $('.thumbnail').colorbox({
         width: '50%', 
-        className: 'img-responsive'
+        className: 'img-responsive',
+        innerWidth: '45%'
         });
     }
   },
