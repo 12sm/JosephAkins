@@ -25,7 +25,10 @@ var Roots = {
       // JavaScript to be fired on all pages
       $('.vid-div').fitVids();
       $(".blog-img-container").imgLiquid();
-       $('.thumbnail').colorbox();
+       $('.thumbnail').colorbox({
+        width: 50%, 
+        className: 'img-responsive', 
+        });
     }
   },
 
