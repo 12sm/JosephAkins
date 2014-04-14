@@ -26,7 +26,7 @@ var Roots = {
       $('.vid-div').fitVids();
       $(".blog-img-container").imgLiquid();
        $('.thumbnail').colorbox({
-        width: '50%', 
+        width: '60%', 
         className: 'img-responsive',
         innerWidth: '45%'
         });
