@@ -25,6 +25,7 @@ var Roots = {
       // JavaScript to be fired on all pages
       $('.vid-div').fitVids();
       $(".blog-img-container").imgLiquid();
+       $('.thumbnail').colorbox();
     }
   },
 
@@ -79,6 +80,8 @@ var Roots = {
 init: function() {
 
   $('.add_to_cart_button').removeClass('button');
+
+  $('.pdf-preview').colorbox();
 
   audiojs.events.ready(function() {
     var as = audiojs.createAll();
