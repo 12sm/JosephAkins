@@ -318,6 +318,13 @@ margin-bottom: 15px;
    font-size: 10px;
 }
 
+
+.preview-link>.fa:before, .sm2_paused>.fa:before {
+content: "\f144";
+}
+.sm2_playing>.fa:before{
+  content: "\f04c";
+}
   /*SoundManager Css*/
   a.sm2_button {
    position:relative;
