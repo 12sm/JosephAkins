@@ -83,7 +83,7 @@ a{
 /* ==========================================================================
    Navbar
    ========================================================================== */
-.nav-container, footer{
+.nav-container{
   background-color: #988d71!important;
 background-image: url(../img/nav-bg.jpg)!important;
 }
@@ -706,7 +706,10 @@ text-transform: uppercase;
 /* ==========================================================================
    Footer
    ========================================================================== */
-
+footer{
+  background-color: #988d71!important;
+  background-image: url(../img/nav-bg.jpg)!important;
+}
 .content-info { }
 
 #social ul {margin:0px; padding:0px; list-style: none;}
