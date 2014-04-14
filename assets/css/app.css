@@ -52,7 +52,7 @@ p { color:#000000;
   }
     
 h3{
-   font-size: 18px;
+  font-size: 14px;
   }
 
 h4 {
@@ -183,6 +183,9 @@ height: 0px;
 color: #fff!important;
 }
 
+.owl-item{
+  padding: 5px;
+}
 h4.featured{
   color: #E99800;
   font-weight: bold;
@@ -773,6 +776,9 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
  .row-store {
 margin-top: 15px;
+}
+h3{
+   font-size: 18px;
 }
 }
 
