@@ -105,7 +105,6 @@ function roots_gallery($attr) {
 
     $output .= '</div>';
     $i++;
-    $output .= ($i % $columns == 0) ? '</div>' : '';
   }
 
   $output .= '</div>';
