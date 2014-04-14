@@ -448,6 +448,17 @@ color:#045F6B
 
 .sidebar { }
 
+
+/* =======================
+   Colorbox
+   ======================= */
+#cboxPrevious, #cboxCurrent, #cboxNext{
+  display: none!important;
+}
+button#cboxClose {
+float: right;
+}
+
 /* =======================
    Concerts
    ======================= */
