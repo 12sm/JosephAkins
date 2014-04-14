@@ -83,7 +83,7 @@ a{
 /* ==========================================================================
    Navbar
    ========================================================================== */
-.nav-container{
+.nav-container, footer{
   background-color: #988d71!important;
 background-image: url(../img/nav-bg.jpg)!important;
 }
