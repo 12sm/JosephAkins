@@ -82,7 +82,7 @@ function roots_gallery($attr) {
 
   $unique = (get_query_var('page')) ? $instance . '-p' . get_query_var('page'): $instance;
   $output = '<div class="gallery gallery-' . $id . '-' . $unique . '">';
-  $output .= '<div class="row gallery-row">': '';
+  $output .= '<div class="row gallery-row">';
   $i = 0;
   foreach ($attachments as $id => $attachment) {
     switch($link) {
