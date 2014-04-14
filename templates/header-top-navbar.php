@@ -1,4 +1,3 @@
-<header class="banner navbar navbar-default navbar-static-top" role="banner">
 <!--LayerSlider begin-->
 <?php
 
@@ -6,7 +5,8 @@ if ( is_front_page() || is_page('store')) {
     
     layerslider(1);
     } ?>
-<!--LayerSlider end-->
+    <!--LayerSlider end-->
+<header class="banner navbar navbar-default navbar-static-top" role="banner">
   <div class="container-fluid nav-container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
