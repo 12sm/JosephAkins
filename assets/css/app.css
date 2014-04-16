@@ -50,7 +50,10 @@ p { color:#000000;
     font-size:14px;
     letter-spacing:.05em; 
   }
-    
+    .dropdown-menu>li>a{
+    color:#000000;
+    font-family:"Georgia";
+    }
 h3{
   font-size: 14px;
   }
