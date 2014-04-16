@@ -50,10 +50,13 @@ p { color:#000000;
     font-size:14px;
     letter-spacing:.05em; 
   }
-    .dropdown-menu>li>a{
-    color:#000000;
-    font-family:"Georgia";
-    }
+.dropdown-menu>li>a{
+color:#000000;
+font-family:"Georgia";
+}
+ul.dropdown-menu{
+  background-image: url(../img/nav-bg.jpg)!important;
+}
 h3{
   font-size: 14px;
   }
