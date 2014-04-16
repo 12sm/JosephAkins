@@ -674,9 +674,9 @@ background-size: cover;
 }
 
 .hentry .entry-content {
- -moz-column-count: 2;
+ -moz-column-count: 1;
  -moz-column-gap: 20px;
- -webkit-column-count: 2;
+ -webkit-column-count: 1;
  -webkit-column-gap: 30px;
  }
 
@@ -784,6 +784,12 @@ h3{
 -moz-column-gap: 50px;
 -webkit-column-count: 2;
 -webkit-column-gap : 50px;
+}
+.hentry .entry-content {
+-moz-column-count: 2;
+-moz-column-gap: 20px;
+-webkit-column-count: 2;
+-webkit-column-gap: 30px;
 }
 }
 
