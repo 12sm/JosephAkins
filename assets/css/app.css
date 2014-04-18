@@ -673,7 +673,11 @@ padding-bottom: 75%;
 background-image: url(../img/blog-default.jpg);
 background-size: cover;
 }
-
+.single-post .about-img {
+margin-bottom: 15px;
+float: left;
+margin-right: 15px;
+}
 .hentry .entry-content {
  -moz-column-count: 1;
  -moz-column-gap: 20px;
