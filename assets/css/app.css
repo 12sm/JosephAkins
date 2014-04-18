@@ -52,7 +52,7 @@ p { color:#000000;
   }
 .dropdown-menu>li>a{
 color:#000000;
-font-family:"Georgia";
+font-family:"baltica-web-extra-condensed"!important;
 }
 ul.dropdown-menu{
   background-image: url(../img/nav-bg.jpg)!important;
