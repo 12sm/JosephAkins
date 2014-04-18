@@ -790,7 +790,9 @@ h3{
 -webkit-column-count: 2;
 -webkit-column-gap : 50px;
 }
-
+.navbar-default{
+  font-size: 14px;
+}
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -801,12 +803,16 @@ nav{
   margin-bottom: -1px;
 }
 
+
  }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
 .addthis_counter{
   float: none;
+}
+.navbar-default{
+  font-size: 21px;
 }
 }
 
