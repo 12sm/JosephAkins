@@ -452,19 +452,9 @@ color:#045F6B
 /* =======================
    Colorbox
    ======================= */
-/*#cboxPrevious, #cboxCurrent, #cboxNext{
-  display: none!important;
+#colorbox{
+  z-index: 100000;
 }
-button#cboxClose {
-float: right;
-}
-
-.cboxPhoto {
-padding: 25px;
-background: #fff;
-border: 1px solid #fff;
-border-radius: 15px;
-}*/
 
 /* =======================
    Concerts
