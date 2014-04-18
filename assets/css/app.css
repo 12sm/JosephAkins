@@ -637,6 +637,24 @@ display: none;
 display: inline-block;
 margin-right: 25px;
 }
+
+.gal-title .btn{font-size: 100%;
+              margin:0px;
+              line-height:1em;
+              Font-family: "Georgia"!important; 
+              text-decoration: none; 
+              overflow:visible;
+              padding:6px 10px; 
+              left: auto;
+              color: #045F6B!important;
+              background:#E1DED5!important;
+              white-space: nowrap; 
+              display: inline-block; 
+}
+.gal-title .btn:hover{
+  
+}
+
 /* ==========================================================================
    Posts
    ========================================================================== */
