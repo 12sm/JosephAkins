@@ -790,7 +790,7 @@ h3{
 -webkit-column-count: 2;
 -webkit-column-gap : 50px;
 }
-.navbar-default{
+.navbar-default .navbar-nav>li>a{
   font-size: 14px;
 }
 }
