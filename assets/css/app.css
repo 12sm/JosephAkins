@@ -786,12 +786,7 @@ h3{
 -webkit-column-count: 2;
 -webkit-column-gap : 50px;
 }
-.hentry .entry-content {
--moz-column-count: 2;
--moz-column-gap: 20px;
--webkit-column-count: 2;
--webkit-column-gap: 30px;
-}
+
 }
 
 /* Medium devices (desktops, 992px and up) */
