@@ -25,7 +25,7 @@ var Roots = {
       // JavaScript to be fired on all pages
       $('.vid-div').fitVids();
       $(".blog-img-container").imgLiquid();
-       $('.thumbnail').colorbox({
+       $('.attachment-thumbnail').colorbox({
         className: 'img-responsive',
         maxWidth: '55%'
         });
