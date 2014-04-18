@@ -550,7 +550,9 @@ body.media{
    margin-left: 13%;
 }
 
-.gallery-box {margin-top:0px;}
+.gallery-box {
+margin-top: 50px;
+}
 
 #gallery-carousel .owl-item{
    border: 1px solid #FFF;
