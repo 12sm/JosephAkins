@@ -4,4 +4,4 @@
 		<?php echo do_shortcode('[wpv-view name="music-carousel"]') ?>
 	</div>
 </div>
-<?php echo do_shortcode('[wpv-view name="Store-New"]')
+<?php echo do_shortcode('[wpv-view name="Store-New"]') ?>
