@@ -318,7 +318,9 @@ margin-bottom: 15px;
 .row-store {
 margin-top: 35px;
 }
-
+.store-slider{
+  margin-bottom: 50px;
+}
 .sm2_link>.fa :before, .sm2_paused>.fa:before {
 content: "\f04b";
 }
