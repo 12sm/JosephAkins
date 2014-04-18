@@ -416,18 +416,21 @@ color:#045F6B
 .preview-link>i{
   font-size: 1.5em!important;
 }
-.add_to_cart_button {font-size: 100%;
-              margin:0px;
-              line-height:1em;
-              Font-family: "Georgia"!important; 
-              text-decoration: none; 
-              overflow:visible;
-              padding:6px 10px; 
-              left: auto;
-              color: #045F6B!important;
-              background:#E1DED5!important;
-              white-space: nowrap; 
-              display: inline-block; 
+.add_to_cart_button {
+          font-size: 100%;
+          font-weight: bold;
+          margin: 0px;
+          line-height: 1em;
+          Font-family: "Georgia"!important;
+          text-decoration: none;
+          overflow: visible;
+          padding: 6px 10px;
+          left: auto;
+          color: #045F6B!important;
+          background: #E1DED5!important;
+          white-space: nowrap;
+          display: inline-block;
+          border: 1px #045F6B solid!important;
 }
 
 /* ==========================================================================
