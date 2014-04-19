@@ -670,6 +670,9 @@ font-weight: bold;
               white-space: nowrap; 
               display: inline-block; 
 }
+.hide-mobile{
+  display: none;
+}
 /* ==========================================================================
    Posts
    ========================================================================== */
@@ -801,7 +804,9 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 @media (min-width: 768px) {
 .col,
 .post-nav {margin:0 10%;}
-
+.hide-mobile{
+  display: block;
+}
 .store-buy{
   margin-top: 0px!important;
  }
