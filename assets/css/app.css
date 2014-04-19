@@ -448,6 +448,7 @@ margin-top: 15px;
 .main{
    background: #f7f7f3;
    padding-top: 2%;
+   padding-bottom: 25px;
 }
 
 /* Gallery Shortcode */
@@ -752,6 +753,8 @@ text-transform: uppercase;
 footer{
   background-color: #988d71!important;
   background-image: url(../img/nav-bg.jpg)!important;
+  padding: 40px;
+
 }
 .content-info { }
 
