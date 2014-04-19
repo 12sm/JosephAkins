@@ -504,6 +504,9 @@ font-size: 12px!important;
       width: 9%;
    } */
    
+ .concerts main{
+min-height: 550px;
+}
 td.bit-date {
 width: 90px!important;
 }
