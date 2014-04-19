@@ -329,7 +329,7 @@ content: "\f04b";
   content: "\f04c";
 }
 .store-title .preview-container {
-margin-top: 0px;
+  margin-top: 0px;
 margin-right: 5px;
 max-width: 25px;
 float: left;
@@ -823,6 +823,8 @@ h3{
 .navbar-default .navbar-nav>li>a{
   font-size: 14px;
 }
+.store-title .preview-container {
+  margin-top: 15px;
 }
 
 /* Medium devices (desktops, 992px and up) */
