@@ -637,7 +637,7 @@ background: #fff;
 border: 1px solid #ededed;
 border-top: 0px;
 height: 0px;
-padding-bottom: 50%;
+padding-bottom: 33%;
 overflow: hidden;
 }
 
@@ -836,7 +836,9 @@ nav{
   /*fixes overlapping of navbar*/
   margin-bottom: -1px;
 }
-
+.vid-div {
+padding: 0 10%;
+}
 
  }
 
