@@ -328,6 +328,12 @@ content: "\f04b";
 .sm2_playing>.fa:before{
   content: "\f04c";
 }
+.store-title .preview-container {
+margin-top: 0px;
+margin-right: 5px;
+max-width: 25px;
+float: left;
+}
   /*SoundManager Css*/
   a.sm2_button {
    position:relative;
@@ -440,6 +446,7 @@ color:#045F6B
 }
 .store-title h5 {
 margin-top: 15px;
+font-size: 1.4em;
 }
 /* ==========================================================================
    Primary Content
@@ -801,6 +808,8 @@ margin-left: 141px;
 }
  .row-store {
 margin-top: 15px;
+border-bottom: 2px #045F6B solid;
+padding: 25px 0;
 }
 h3{
    font-size: 18px;
