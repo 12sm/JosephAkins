@@ -654,7 +654,9 @@ display: inline-block;
 margin-right: 25px;
 font-weight: bold;
 }
-
+.add_to_cart_button:text{
+  word-wrap: normal;
+}
 .gal-title .btn{font-size: 100%;
               margin:0px;
               line-height:1em;
