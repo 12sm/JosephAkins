@@ -802,7 +802,9 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 .store-buy{
   margin-top: 0px!important;
  }
-
+.add_to_cart_button{
+  font-size: 15px;
+}
 .navbar-nav { 
 margin-left: 141px;
 }
