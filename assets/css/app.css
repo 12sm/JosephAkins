@@ -451,6 +451,7 @@ font-size: 1.4em;
 }
 .buy-now img{
   margin: 0 auto;
+  width: 70%;
 }
 /* ==========================================================================
    Primary Content
@@ -810,6 +811,9 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 .post-nav {margin:0 10%;}
 .hide-mobile{
   display: block;
+}
+.buy-now img{
+  width: 90%;
 }
 .store-buy{
   margin-top: 0px!important;
