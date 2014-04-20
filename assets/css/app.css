@@ -448,6 +448,9 @@ color:#045F6B
 margin-top: 15px;
 font-size: 1.4em;
 }
+.buy-now img{
+  margin: 0 auto;
+}
 /* ==========================================================================
    Primary Content
    ========================================================================== */
@@ -836,9 +839,7 @@ h3{
 .store-title .preview-container {
   margin-top: 15px;
 }
-.buy-now img{
-  margin: 0 auto;
-}
+
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
