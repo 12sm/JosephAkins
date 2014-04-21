@@ -453,6 +453,18 @@ font-size: 1.4em;
   margin: 0 auto;
   width: 60%;
 }
+input.checkout-button.button.alt.wc-forward {
+/* proceed to checkout button */
+color: #5e5e5e;
+text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+border: 1px solid #c7c0c7;
+background: #f7f6f7;
+background: -webkit-gradient(linear,left top,left bottom,from(#f7f6f7),to(#dfdbdf));
+background: -webkit-linear-gradient(#f7f6f7,#dfdbdf);
+background: -moz-linear-gradient(center top,#f7f6f7 0%,#dfdbdf 100%);
+background: -moz-gradient(center top,#f7f6f7 0%,#dfdbdf 100%);
+white-space: nowrap;
+}
 /* ==========================================================================
    Primary Content
    ========================================================================== */
