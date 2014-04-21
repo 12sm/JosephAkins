@@ -443,12 +443,7 @@ color:#045F6B
           height: 55px;
           padding: 9% 0;
           max-width: 175px;
-          font-size: 18px;
-          -ms-word-break: break-all;
-           word-break: break-word;
-          -webkit-hyphens: auto;
-          -moz-hyphens: auto;
-              hyphens: auto;
+          font-size: 12px;
 }
 .store-title h5 {
 margin-top: 15px;
@@ -676,9 +671,7 @@ display: inline-block;
 margin-right: 25px;
 font-weight: bold;
 }
-.add_to_cart_button:text{
-  word-wrap: normal;
-}
+
 .gal-title .btn{font-size: 100%;
               margin:0px;
               line-height:1em;
@@ -872,7 +865,9 @@ nav{
 .vid-div {
 padding: 0 11%;
 }
-
+.add_to_cart_button{
+  font-size: 18px;
+}
  }
 
 /* Large devices (large desktops, 1200px and up) */
