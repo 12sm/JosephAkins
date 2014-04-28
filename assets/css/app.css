@@ -157,6 +157,14 @@ background-image: url(../img/nav-bg.jpg)!important;
 text-align:center!important;
 }
 
+#mc_embed_signup {
+ background: transparent!important;
+clear: none!important;
+}
+input#mce-EMAIL{
+  width: 20%;
+}
+
 /* ==========================================================================
    Home
    ========================================================================== */
