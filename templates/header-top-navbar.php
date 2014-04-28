@@ -19,11 +19,15 @@ if ( is_front_page() || is_page('store')) {
     </div>
 
     <nav class="collapse navbar-collapse" role="navigation">
+      <div class="row">
+        <div class="col-sm-6">
       <?php
         if (has_nav_menu('primary_navigation')) :
           wp_nav_menu(array('theme_location' => 'primary_navigation', 'menu_class' => 'nav navbar-nav'));
         endif;
       ?>
+      </div>
+      <div class="col-sm-6">
           <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
 <style type="text/css">
@@ -41,9 +45,8 @@ if ( is_front_page() || is_page('store')) {
   
 </form>
 </div>
-
 <!--End mc_embed_signup-->
+</div>
     </nav>
-
   </div>
 </header>
