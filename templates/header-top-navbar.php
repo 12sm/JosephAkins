@@ -19,7 +19,6 @@ if ( is_front_page() || is_page('store')) {
     </div>
 
     <nav class="collapse navbar-collapse" role="navigation">
-      <div class="row">
         <div class="nav-menu-container">
       <?php
         if (has_nav_menu('primary_navigation')) :
