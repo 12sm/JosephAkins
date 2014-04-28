@@ -162,9 +162,14 @@ text-align:center!important;
 clear: none!important;
 }
 input#mce-EMAIL{
-  width: 20%;
+  width: 20%!important;
 }
-
+input#mc-embedded-subscribe {
+width: 15%!important;
+clear: none!important;
+float: right;
+margin-top: -44px!important;
+}
 /* ==========================================================================
    Home
    ========================================================================== */
