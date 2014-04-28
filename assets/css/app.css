@@ -870,6 +870,7 @@ nav{
 .vid-div {
 padding: 0 11%;
 }
+.owl-theme .owl-controls .owl-buttons .owl-next {position:absolute; right:3%;}
  }
 
 /* Large devices (large desktops, 1200px and up) */
