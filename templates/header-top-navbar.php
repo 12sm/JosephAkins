@@ -33,6 +33,7 @@ if ( is_front_page() || is_page('store')) {
 </style>
 <div id="mc_embed_signup">
 <form action="http://josephakins.us5.list-manage1.com/subscribe/post?u=8b7a3df44619bc2357a4d438f&amp;id=3d9589012f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+  <label for="mce-EMAIL">Subscribe to our mailing list</label>
   <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div style="position: absolute; left: -5000px;"><input type="text" name="b_8b7a3df44619bc2357a4d438f_3d9589012f" value=""></div>
