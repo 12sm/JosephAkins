@@ -164,12 +164,13 @@ clear: none!important;
 input#mce-EMAIL {
 width: 20%!important;
 min-width: 1px!important;
+float: left;
+margin:0 1% 10px 0;
 }
 input#mc-embedded-subscribe {
-width: 11%!important;
+width: 9%!important;
 clear: none!important;
-float: right;
-margin-top: -44px!important;
+float: left;
 min-width: 1px!important;
 }
 #mc_embed_signup label{
