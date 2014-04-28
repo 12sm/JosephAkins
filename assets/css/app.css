@@ -161,14 +161,16 @@ text-align:center!important;
  background: transparent!important;
 clear: none!important;
 }
-input#mce-EMAIL{
-  width: 20%!important;
+input#mce-EMAIL {
+width: 20%!important;
+min-width: 1px!important;
 }
 input#mc-embedded-subscribe {
-width: 15%!important;
+width: 11%!important;
 clear: none!important;
 float: right;
 margin-top: -44px!important;
+min-width: 1px!important;
 }
 #mc_embed_signup label{
 font-family: "baltica-web-extra-condensed"!important;
@@ -860,8 +862,8 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
     height: 55px;
           padding: 9% 0;
 }
-.navbar-nav { 
-margin-left: 141px;
+.navbar-nav {
+margin-left: 15px;
 }
  .row-store {
 margin-top: 15px;
@@ -903,7 +905,7 @@ padding: 0 11%;
   float: none;
 }
 .navbar-default .navbar-nav>li>a{
-  font-size: 21px;
+  font-size: 14px;
 }
 }
 
