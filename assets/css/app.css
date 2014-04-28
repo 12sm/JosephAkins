@@ -183,6 +183,7 @@ padding-bottom: 0px!important;
 float: left;
 margin: 6px 10px;
 font-size: 21px!important;
+display: none;
 }
 /* ==========================================================================
    Home
@@ -889,7 +890,14 @@ h3{
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-
+input#mce-EMAIL {
+width: 16%!important;
+}
+#mc_embed_signup label {
+margin: 6px 5px;
+font-size: 18px!important;
+display: block;
+}
 nav{
   /*fixes overlapping of navbar*/
   margin-bottom: -1px;
