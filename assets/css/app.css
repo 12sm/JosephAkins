@@ -890,6 +890,9 @@ h3{
 input#mce-EMAIL {
 width: 16%!important;
 }
+  input#mc-embedded-subscribe {
+ width: 9%!important;
+}
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   input#mce-EMAIL {
