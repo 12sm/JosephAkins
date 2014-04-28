@@ -177,6 +177,9 @@ text-transform: uppercase!important;
 letter-spacing: .1em!important;
 font-weight: normal!important;
 padding-bottom: 0px!important;
+float: left;
+margin: 6px 10px;
+font-size: 21px!important;
 }
 /* ==========================================================================
    Home
