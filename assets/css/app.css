@@ -162,13 +162,13 @@ text-align:center!important;
 clear: none!important;
 }
 input#mce-EMAIL {
-width: 20%!important;
+width: 60%!important;
 min-width: 1px!important;
 float: left;
 margin:0 1% 10px 0!important;
 }
 input#mc-embedded-subscribe {
-width: 9%!important;
+width: 30%!important;
 clear: none!important;
 float: left;
 min-width: 1px!important;
@@ -887,10 +887,12 @@ h3{
 .store-title .preview-container {
   margin-top: 15px;
 }
-
+input#mce-EMAIL {
+width: 16%!important;
+}
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-input#mce-EMAIL {
+  input#mce-EMAIL {
 width: 16%!important;
 }
 #mc_embed_signup label {
@@ -910,6 +912,9 @@ padding: 0 11%;
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
+  input#mce-EMAIL {
+width: 28%!important;
+}
 .addthis_counter{
   float: none;
 }
