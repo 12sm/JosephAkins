@@ -170,6 +170,14 @@ clear: none!important;
 float: right;
 margin-top: -44px!important;
 }
+#mc_embed_signup label{
+font-family: "baltica-web-extra-condensed"!important;
+color: #53534C!important;
+text-transform: uppercase!important;
+letter-spacing: .1em!important;
+font-weight: normal!important;
+padding-bottom: 0px!important;
+}
 /* ==========================================================================
    Home
    ========================================================================== */
