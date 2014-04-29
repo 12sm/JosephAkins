@@ -366,6 +366,13 @@ margin-right: 5px;
 max-width: 25px;
 float: left;
 }
+.store-section {
+height: 225px;
+background-color: #FFF;
+padding-top: 1%;
+border: 1px solid rgb(238, 238, 238);
+padding: 2%;
+}
   /*SoundManager Css*/
   a.sm2_button {
    position:relative;
