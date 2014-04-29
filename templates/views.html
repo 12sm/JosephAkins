@@ -312,26 +312,43 @@
 <div class="row">
       <div class='col-md-12'>
 		<wpv-loop>
-          <!--div class="row row-store">-->
-            <div class="col-sm-4">
+            <div class="col-sm-4 store-section">
                <div class="row">
-                   <div class="col-sm-6">
-             		<h5>[wpv-post-title]</h5>
+                   <div class="col-md-6">
+                     <div class="row store-title">
+                       <div class="col-sm-12">
+                     <h5><b>[wpv-post-title]</b></h5>
+                       </div>
+                     </div>
              		<img src="[types field="album-image" size="thumbnail" url="true" resize="proportional" id="$album"][/types]"  class="img-responsive">
          			</div>
-	         		<div class="col-sm-6">
+	         		<div class="col-md-6">
+	         		<ul class="buy-options">
+	         		<span class="prod-price"><b>[wpv-woo-product-price]</b></span>
 	         		[wpv-if type="wpcf-prod-types" evaluate="$type='CD'"]
-	         			<p>[types field="description" id="$parent"][/types]</p>
-	     			<span class="buy-now-cd buy-now">
+	     			<li><span class="buy-now-cd buy-now">
                 [wpv-woo-buy-or-select add_to_cart_text="Buy CD Here" link_to_product_text=’Buy CD Here’]
-                      </span>
+                      </span></li>
+                  		<li>
+[wpv-if type="wpcf-store" evaluate="$type = 'itunes'" debug="true"]
+                <a href="[types field="itunes-url" output="raw"][/types]" target="itunes_store" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/htmlResources/assets/en_us//images/web/linkmaker/badge_itunes-lrg.png) no-repeat;width:110px;height:40px;@media only screen{background-image:url(https://linkmaker.itunes.apple.com/htmlResources/assets/en_us//images/web/linkmaker/badge_itunes-lrg.svg);}"></a>
+                [/wpv-if]
+                [wpv-if type="wpcf-store" evaluate="$type = 'amazon'" debug="true"]
+                <a href="[types field="amazon-url" output="raw"][/types]" target="_blank">
+                  <img src="http://josephakins.12southmusic.com/wp-content/themes/josephakins/assets/img/amazon-buy-common.png" class="img-responsive"/>
+                </a>
+              [/wpv-if]
+                [/wpv-if]
+                  		</li>
                       [/wpv-if]
 	                 	[wpv-if type="wpcf-prod-types" evaluate="$type='Sheet-Music (PDF)'"]
-	         			<p>[types field="short-description"][/types]</p>
-	     			<span class="buy-now Sheet-Music">
+	                 	<li>
+	     			<span class="buy-now buy-now-sm">
                 [wpv-woo-buy-or-select add_to_cart_text="Buy Sheet-Music"]
                       </span>
+                      </li>
                       [/wpv-if]
+                      
                       </div>
  				</div>
 	     			</div>

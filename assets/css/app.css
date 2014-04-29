@@ -376,6 +376,10 @@ padding: 2%;
 .store-desc{
   height: 100px;
 }
+.buy-options {
+list-style: none;
+padding-left: 0px;
+}
   /*SoundManager Css*/
   a.sm2_button {
    position:relative;
