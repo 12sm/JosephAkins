@@ -303,3 +303,44 @@
         [wpml-string context="wpv-views"]<strong>N/A</strong>[/wpml-string]
 	[/wpv-no-items-found]
 [wpv-layout-end]
+
+
+<!--Store Displaying no tracks-->
+[wpv-layout-start]
+	[wpv-items-found]
+	<!-- wpv-loop-start -->
+<div class="row">
+      <div class='col-md-12'>
+		<wpv-loop>
+          <!--div class="row row-store">-->
+            <div class="col-sm-4">
+               <div class="row">
+                   <div class="col-sm-6">
+             		<h5>[wpv-post-title]</h5>
+             		<img src="[types field="album-image" size="thumbnail" url="true" resize="proportional"][/types]" id="$parent" class="img-responsive">
+         			</div>
+	         		<div class="col-sm-6">
+	         		[wpv-if $type="wpcf-prod-types" $type="CD"]
+	         			<p>[types field="description" id="$parent"][/types]</p>
+	     			<span class="buy-now-cd buy-now">
+                [wpv-woo-buy-or-select add_to_cart_text="Buy CD Here" link_to_product_text=’Buy CD Here’]
+                      </span>
+                      [/wpv-if]
+	                 	[wpv-if $type="wpcf-prod-types" $type="Sheet-Music (PDF)"]
+	         			<p>[types field="short-description"][/types]</p>
+	     			<span class="buy-now Sheet-Music">
+                [wpv-woo-buy-or-select add_to_cart_text="Buy Sheet-Music"]
+                      </span>
+                      [/wpv-if]
+                      </div>
+ 				</div>
+	     			</div>
+		</wpv-loop>
+  </div>
+</div>
+	<!-- wpv-loop-end -->
+	[/wpv-items-found]
+	[wpv-no-items-found]
+        [wpml-string context="wpv-views"]<strong>N/A</strong>[/wpml-string]
+	[/wpv-no-items-found]
+[wpv-layout-end]
