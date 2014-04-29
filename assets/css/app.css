@@ -72,7 +72,7 @@ h5 {font-size: 16px;
     }
     h6{
 font-size: 14px;
-text-align: center;
+text-align: left;
 }
 a{
   color: #A57513;
@@ -371,7 +371,7 @@ max-width: 25px;
 float: left;
 }
 .store-section {
-height: 225px;
+min-height: 250px;
 background-color: #FFF;
 padding-top: 1%;
 border: 1px solid rgb(238, 238, 238);
@@ -876,6 +876,9 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 .post-nav {margin:0 10%;}
 .hide-mobile{
   display: block;
+}
+h6{
+  text-align: center;
 }
 .buy-now img{
   width: 90%;
