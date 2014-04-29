@@ -239,3 +239,67 @@
 		[wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
 	[/wpv-no-items-found]
 [wpv-layout-end]
+
+<!---Music-Carousel-->
+[wpv-layout-start]
+	[wpv-items-found]
+	<!-- wpv-loop-start -->
+	<div class="music-carousel">
+		<wpv-loop>
+          <a href="[wpv-taxonomy-url]">
+          <div class="music-carousel-item">
+            <h3>[wpv-taxonomy-title]</h3>
+           [wpv-view name="music-carousel-album-image" wpvalbums="[wpv-taxonomy-slug]"]
+          </div>
+          </a>
+		</wpv-loop>
+</div>
+	<!-- wpv-loop-end -->
+	[/wpv-items-found]
+	[wpv-no-items-found]
+		[wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
+	[/wpv-no-items-found]
+[wpv-layout-end]
+
+<!--Original Store-NEW -->
+[wpv-layout-start]
+	[wpv-items-found]
+	<!-- wpv-loop-start -->
+		<div class="row">
+      <div class="col-md-4">
+        [wpv-view name="featured-product"]
+      </div>
+      <div class='col-md-8'>
+<div class="row store-table-header hide-mobile">
+  <div class="col-sm-4">
+		<h4>Title</h4>
+	</div>
+	<div class='col-sm-1'>
+      <h4>Preview</h4>
+	</div>
+	<div class="col-sm-7">
+      <h4>Purchase</h4>
+	</div>
+</div>
+		<wpv-loop>
+          <div class="row row-store">
+            <div class="col-sm-4">
+                  <span class="store-title">
+					[wpv-view name="store-play-button"]  <h5>[wpv-post-title]</h5>
+                  </span>
+            </div>
+          <div class='col-sm-1  hide-mobile'>
+      [wpv-view name="store-preview" wpvprchildof="[wpv-post-id]"]
+	</div>
+	
+	<div class="col-sm-7 col-xs-12">
+          [wpv-view name="store-children" wpvprchildof="[wpv-post-id]"]
+            </div>
+            </div>
+		</wpv-loop>
+	<!-- wpv-loop-end -->
+	[/wpv-items-found]
+	[wpv-no-items-found]
+        [wpml-string context="wpv-views"]<strong>N/A</strong>[/wpml-string]
+	[/wpv-no-items-found]
+[wpv-layout-end]

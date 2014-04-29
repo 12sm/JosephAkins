@@ -50,6 +50,14 @@ function trim_shortcode($atts, $content = '') {
   return $content;
 }
 
+
+add_filter('single_add_to_cart_text', 'woo_custom_cart_button_text');
+
+function woo_custom_cart_button_text() {
+
+return __('My Button Text', 'woocommerce');
+
+}
 /**
  * Roots includes
  */
