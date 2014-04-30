@@ -106,21 +106,9 @@ $('.music-carousel').owlCarousel({
        // optional: ignore Flash where possible, use 100% HTML5 mode
        // preferFlash: false,
      });
-         /**
- *
- * SoundManager 2 Demo: Play MP3 links "in-place"
- * ----------------------------------------------
- *
- * http://schillmania.com/projects/soundmanager2/
- *
- * A simple demo making MP3s playable "inline"
- * and easily styled/customizable via CSS.
- *
- * Requires SoundManager 2 Javascript API.
- *
- */
 
-function InlinePlayer() {
+
+/*function InlinePlayer() {
   var self = this;
   var pl = this;
   var sm = soundManager; // soundManager instance
@@ -361,7 +349,7 @@ soundManager.onready(function() {
   // soundManager.createSound() etc. may now be called
   inlinePlayer = new InlinePlayer();
 });
-
+*/
        
       }
   }
