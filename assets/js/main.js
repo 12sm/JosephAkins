@@ -33,6 +33,9 @@ var Roots = {
        // preferFlash: false,
      });
 
+audiojs.events.ready(function() {
+    var as = audiojs.createAll();
+  });
 
 function InlinePlayer() {
   var self = this;
