@@ -1,1 +1,1 @@
-<?php echo do_shortcode('[wpv-view name="single-product"]''); ?>
+<? php echo do_shortcode('[wpv-view name="single-product"]''); ?>
