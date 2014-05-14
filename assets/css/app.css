@@ -962,6 +962,15 @@ padding: 0 11%;
  }
 
 
+@media (min-width: 992px) and (max-width:1199px) {
+.nav-mail {
+padding: 10px;
+display: block;
+width: 310px;
+margin: 0px auto;
+}
+}
+
 
 
 /* Large devices (large desktops, 1200px and up) */
