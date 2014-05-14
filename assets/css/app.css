@@ -952,6 +952,9 @@ nav{
   /*fixes overlapping of navbar*/
   margin-bottom: -1px;
 }
+
+.nav-mail {float:right;}
+
 .vid-div {
 padding: 0 11%;
 }
@@ -964,8 +967,6 @@ padding: 0 11%;
 
 @media (min-width: 992px) and (max-width:1199px) {
 .nav-mail {
-padding: 10px;
-display: block;
 width: 310px;
 margin: 0px auto;
 }
@@ -984,6 +985,7 @@ margin: 0px auto;
 }
 
 #mc_embed_signup label {display:block;}
+
 
 }
 
