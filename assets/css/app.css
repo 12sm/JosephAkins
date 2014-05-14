@@ -11,10 +11,11 @@ body { }
 .col {margin:0 1%;}
 
 .wrap {
-   background: url(../img/bg-field.jpg) no-repeat;
-   background-position: center center;
-   background-size: cover;
-   }
+background: url(../img/bg-field.jpg) no-repeat;
+background-position: center 70%;
+background-size: 100%;
+background-attachment: fixed;
+}
 
 body.home > header {
     margin-bottom: 0px;
@@ -107,6 +108,7 @@ height: 25px!important;
 -webkit-box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.25);
 -moz-box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.25);
 box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.25);
+margin-bottom: 0px;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -174,7 +176,7 @@ float: left;
 margin:0 1% 10px 0!important;
 }
 input#mc-embedded-subscribe {
-width: 30%!important;
+width: 100px!important;
 clear: none!important;
 float: left;
 min-width: 1px!important;
@@ -870,6 +872,9 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* Extra small devices (phones, up to 480px) */
 /* No media query since this is the default in Bootstrap */
 
+
+
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 .col,
@@ -909,17 +914,22 @@ h3{
 -webkit-column-gap : 50px;
 }
 .navbar-default .navbar-nav>li>a{
-  font-size: 14px;
+  font-size: 18px;
 }
 .store-title .preview-container {
   margin-top: 15px;
 }
 input#mce-EMAIL {
-width: 16%!important;
+width: 180px!important;
 }
   input#mc-embedded-subscribe {
  width: 9%!important;
 }
+
+}
+
+
+
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   input#mce-EMAIL {
@@ -927,9 +937,11 @@ width: 16%!important;
 }
 #mc_embed_signup label {
 margin: 6px 5px;
-font-size: 18px!important;
+font-size: 14px!important;
 display: block!important;
 }
+
+
 nav{
   /*fixes overlapping of navbar*/
   margin-bottom: -1px;
@@ -940,6 +952,9 @@ padding: 0 11%;
 .owl-theme .owl-controls .owl-buttons .owl-next {position:absolute; right:3%;}
  }
 
+
+
+
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
   input#mce-EMAIL {
@@ -949,7 +964,7 @@ width: 28%!important;
   float: none;
 }
 .navbar-default .navbar-nav>li>a{
-  font-size: 14px;
+  font-size: 20px;
 }
 }
 
