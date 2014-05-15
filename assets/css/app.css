@@ -355,6 +355,14 @@ body.single-album .buy-panel {text-align:center;}
 
 .row-store a {display:inline-table;}
 
+.song-list,
+.song-list li {
+list-style: none;
+list-style-type: none;
+margin:0px;
+padding:0px;
+}
+
 .track-title {
 margin-top: 15px;
 font-size: 1.4em;
