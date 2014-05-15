@@ -359,7 +359,7 @@ body.single-album .buy-panel {text-align:center;}
 .row-store .buy-sheet a {
 text-align: center;
 color: #fff;
-width: 150px;
+width: 142px;
 margin: 0px auto;	
 }
 
@@ -374,6 +374,7 @@ padding:0px;
 .song-list li {}
 
 .song-list .col-sm-6 {border-right:1px solid #ccc; padding: 10px 0px;}
+.song-list .song {border-right:1px solid #ccc;}
 
 .track-title {
 margin-top: 15px;
