@@ -359,6 +359,12 @@ body.single-album .btn-sm {background: #0B5D6B;}
 
 body.single-album .buy-panel {text-align:center;}
 
+.track-title {
+margin-top: 15px;
+font-size: 1.4em;
+text-align: center;
+}
+
 
 /* ==========================================================================
    Store
@@ -530,11 +536,7 @@ color:#045F6B
           max-width: 175px;
           font-size: 12px;
 }
-.store-title h5 {
-margin-top: 15px;
-font-size: 1.4em;
-text-align: center;
-}
+
 .buy-now img{
   margin: 0 auto;
   width: 60%;
