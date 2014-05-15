@@ -395,10 +395,12 @@ content: "\f04b";
 .sm2_playing>.fa:before{
   content: "\f04c";
 }
-.store-title .preview-container {
-  margin-top: 0px;
-margin-right: 5px;
-max-width: 25px;
+.play-button {
+margin-top: 15px;
+border-radius: 50%;
+height: 30px;
+width: 30px;
+border: 1px solid #ccc;
 float: left;
 }
 .store-section {
