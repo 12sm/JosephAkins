@@ -1,8 +1,8 @@
 <div class="row">
 	<div class="col-sm-12">
 		<div class="row">
-	<?php echo do_shortcode('[wpv-view name="music-home"]') ?>
-		<?php echo do_shortcode('[wpv-view name="banners"]') ?>
+			<?php echo do_shortcode('[wpv-view name="home-music"]') ?>
+			<?php echo do_shortcode('[wpv-view name="home-banners"]') ?>
 		</div>
 		<div class="row">
 			<div class="col-sm-12">
@@ -14,7 +14,7 @@
 		</div>
 		</div>
 		<div class="row bio-home">
-			<?php echo do_shortcode('[wpv-view name="Bio-Home"]') ?>
+			<?php echo do_shortcode('[wpv-view name="home-bio"]') ?>
 		</div>
 	</div>
 </div>
