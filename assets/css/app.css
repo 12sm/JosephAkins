@@ -202,8 +202,8 @@ font-size: 15px;
    ========================================================================== */
 
 .home-banner {
-padding-bottom: 25%;
-background-size: contain;
+padding-bottom: 32%;
+background-size: contain!important;
 background-repeat: no-repeat;
 background-position: center;
 }
@@ -990,7 +990,7 @@ width: 630px;
 }
 
 .home-banner {
-padding-bottom: 52%;
+padding-bottom: 49%;
 }
 
 }
