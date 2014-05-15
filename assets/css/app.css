@@ -344,7 +344,11 @@ margin-bottom: 15px;
    Albums - Single
    ========================================================================== */
 
-body.single-album .entry-meta {display:none;}
+body.single-album .entry-meta,
+body.single-album .entry-title {display:none;}
+
+body.single-album .album-desc {font-size:16px;}
+
 
 /* ==========================================================================
    Store
