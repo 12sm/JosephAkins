@@ -919,11 +919,12 @@ width: 460px;
           padding: 9% 0;
 }
 
- .row-store {
-margin-top: 15px;
+.row-store {
+margin: 0px;
 border-bottom: 2px #045F6B solid;
-padding: 25px 0;
+padding: 0px;
 }
+
 h3{
    font-size: 18px;
 }
