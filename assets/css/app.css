@@ -371,6 +371,10 @@ margin:0px;
 padding:0px;
 }
 
+.song-list li {padding: 10px 0px;}
+
+.song-list div {border:1px solid #ccc;}
+
 .track-title {
 margin-top: 15px;
 font-size: 1.4em;
