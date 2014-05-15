@@ -359,10 +359,29 @@ body.single-album .btn-sm {background: #0B5D6B;}
 
 body.single-album .buy-panel {text-align:center;}
 
+.row-store a {display:inline-block;}
+
 .track-title {
 margin-top: 15px;
 font-size: 1.4em;
 text-align: center;
+}
+
+.play-button {
+border-radius: 50%;
+height: 30px;
+width: 30px;
+border: 1px solid #ccc;
+float: left;
+}
+
+.play-button i {padding: 7px 9px;}
+
+.sm2_link>.fa :before, .sm2_paused>.fa:before {
+content: "\f04b";
+}
+.sm2_playing>.fa:before{
+  content: "\f04c";
 }
 
 
@@ -395,21 +414,7 @@ border-bottom: 2px #045F6B solid;
 .store-slider{
   margin-bottom: 50px;
 }
-.sm2_link>.fa :before, .sm2_paused>.fa:before {
-content: "\f04b";
-}
-.sm2_playing>.fa:before{
-  content: "\f04c";
-}
-.play-button {
-border-radius: 50%;
-height: 30px;
-width: 30px;
-border: 1px solid #ccc;
-float: left;
-}
 
-.play-button i {padding: 7px 9px;}
 .store-section {
 min-height: 250px;
 background-color: #FFF;
