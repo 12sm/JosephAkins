@@ -402,13 +402,14 @@ content: "\f04b";
   content: "\f04c";
 }
 .play-button {
-margin-top: 15px;
 border-radius: 50%;
 height: 30px;
 width: 30px;
 border: 1px solid #ccc;
 float: left;
 }
+
+.play-button i {padding: 7px 9px;}
 .store-section {
 min-height: 250px;
 background-color: #FFF;
