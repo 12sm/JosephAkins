@@ -353,7 +353,15 @@ body.single-album .btn-sm {background: #0B5D6B;}
 
 body.single-album .buy-panel {text-align:center;}
 
-.row-store a {display:inline-table;}
+.row-store a {display:block;}
+
+.row-store .preview-sheet a,
+.row-store .buy-sheet a {
+text-align: center;
+color: #fff;
+width: 150px;
+margin: 0px auto;	
+}
 
 .song-list,
 .song-list li {
