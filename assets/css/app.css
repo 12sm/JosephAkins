@@ -347,7 +347,12 @@ margin-bottom: 15px;
 body.single-album .entry-meta,
 body.single-album .entry-title {display:none;}
 
+body.single-album .album-header {margin-bottom: 30px;}
+
 body.single-album .album-desc {font-size:16px;}
+
+body.single-album .featured-thumb {border: 1px solid #ccc;}
+body.single-album .featured-thumb img {border: 5px solid #fff;	}
 
 
 /* ==========================================================================
