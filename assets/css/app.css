@@ -377,11 +377,12 @@ padding:0px;
 .song-list .song {border-right:1px solid #ccc;}
 
 .track-title {
-margin-top: 15px;
-font-size: 1.4em;
+padding: 10px;
+font-size: 14px;
 text-align: center;
+position: relative;
+top: 5px;
 }
-
 .play-button {
 border-radius: 50%;
 height: 30px;

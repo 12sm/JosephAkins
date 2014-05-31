@@ -28,14 +28,10 @@ var Roots = {
 
       soundManager.setup({
          url: '/assets/js',
-       flashVersion: 9, // optional: shiny features (default = 8)
+       flashVersion: 9 // optional: shiny features (default = 8)
        // optional: ignore Flash where possible, use 100% HTML5 mode
        // preferFlash: false,
      });
-
-audiojs.events.ready(function() {
-    var as = audiojs.createAll();
-  });
 
 function InlinePlayer() {
   var self = this;
