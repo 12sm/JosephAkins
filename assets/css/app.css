@@ -538,7 +538,7 @@ color:#045F6B
 .preview-link>i{
   font-size: 1.5em!important;
 }
-.add_to_cart_button {}
+.add_to_cart_button {color:#fff;}
 
 .add_to_cart_button:before {	
 }
