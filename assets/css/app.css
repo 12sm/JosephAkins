@@ -415,9 +415,11 @@ content: "\f04b";
    Store
    ========================================================================== */
 
-body.store .album-excerpt a {display:none;}   
+body.store .album-excerpt a {display:none;}  
+body.store .album-excerpt {margin-top:30px;} 
 
-body.store .add_to_cart_button {width:100%; margin-bottom:15px;}
+body.store .add_to_cart_button,
+body.store .view-details {width:100%; margin-bottom:15px;}
    
 .store-table-header{
    background-color: #0B5D6B;
