@@ -351,6 +351,11 @@ body.single-album .featured-thumb img {border: 5px solid #fff;}
 .btn {background: #A57513; color: #fff;}
 .btn-sm {background: #0B5D6B;}
 
+.btn:hover,.btn-sm:hover {
+opacity: 0.8;
+color:#fff;
+}
+
 body.single-album .buy-panel {text-align:center;}
 
 .row-store a {display:block;}
