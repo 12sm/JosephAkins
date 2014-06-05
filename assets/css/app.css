@@ -418,13 +418,6 @@ content: "\f04b";
 body.store .album-excerpt a {display:none;}   
 
 body.store .add_to_cart_button {width:100%; margin-bottom:15px;}
-
-body.store .album-img {
-display: block;
-overflow: hidden;
-height: 0px;
-padding-bottom: 89.8%;
-}
    
 .store-table-header{
    background-color: #0B5D6B;
@@ -984,6 +977,13 @@ h3{
 }
 .store-title .preview-container {
   margin-top: 15px;
+}
+
+body.store .album-img {
+display: block;
+overflow: hidden;
+height: 0px;
+padding-bottom: 89.8%;
 }
 
 
