@@ -348,8 +348,8 @@ body.single-album .album-desc {font-size:16px;}
 body.single-album .featured-thumb {border: 1px solid #ccc;}
 body.single-album .featured-thumb img {border: 5px solid #fff;}
 
-body.single-album .btn {background: #A57513; color: #fff;}
-body.single-album .btn-sm {background: #0B5D6B;}
+.btn {background: #A57513; color: #fff;}
+.btn-sm {background: #0B5D6B;}
 
 body.single-album .buy-panel {text-align:center;}
 
@@ -404,6 +404,9 @@ content: "\f04b";
 /* ==========================================================================
    Store
    ========================================================================== */
+
+body.store .album-excerpt a {display:none;}   
+   
 .store-table-header{
    background-color: #0B5D6B;
    margin: 0 0%;
@@ -448,6 +451,8 @@ padding-left: 0px;
 .store-title-2 h5 {
 text-align: left;
 }
+
+
   /*SoundManager Css*/
   a.sm2_button {
    position:relative;
