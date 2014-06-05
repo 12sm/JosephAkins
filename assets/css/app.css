@@ -28,7 +28,7 @@ body.home > header {
 
 .right {float:right;}
 .left {float:left;}
-.center {float:none; margin:0px auto; text-align:center;}
+.center {text-align:center;}
 
 /*=====================================================================
   Header
@@ -416,6 +416,8 @@ content: "\f04b";
    ========================================================================== */
 
 body.store .album-excerpt a {display:none;}   
+
+body.store .add_to_cart_button {width:100%; margin-bottom:15px;}
    
 .store-table-header{
    background-color: #0B5D6B;
