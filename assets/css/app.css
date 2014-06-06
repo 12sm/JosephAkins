@@ -61,7 +61,6 @@ p { color:#000000;
 .dropdown-menu>li>a {
 display: block;
 padding: 0px 25px;
-border-bottom: 1px solid rgb(175, 166, 143);
 clear: both;
 font-weight: normal;
 line-height: 1.428571429;
@@ -77,6 +76,7 @@ letter-spacing: .1em!important;
 
 ul.dropdown-menu {
   background-image: url(../img/nav-bg.jpg)!important;
+  border:transparent!important;
 }
 
 h3 {font-size: 14px;}
@@ -139,6 +139,16 @@ letter-spacing: .3em!important;
 
 .navbar-default .navbar-nav>li>a:hover {
 color: #96800E!important;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+background-color: transparent;
+color: #4C420B!important;
+}
+
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+background-color: transparent;
+color: rgb(145, 134, 7)!important;
 }
 
 .navbar-default .navbar-toggle {
