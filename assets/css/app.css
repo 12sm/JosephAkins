@@ -30,6 +30,8 @@ body.home > header {
 .left {float:left;}
 .center {text-align:center;}
 
+a {transition:color .2s ease;}
+
 /*=====================================================================
   Header
   ===================================================================== */
@@ -90,7 +92,13 @@ display: none!important;
     text-align: left;
 }
 
+.music-carousel-item img {
+transition:opacity .3s ease;
+}
 
+.music-carousel-item img:hover {
+opacity: .9;
+}
     
 /* ==========================================================================
    Navbar
