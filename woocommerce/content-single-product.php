@@ -1,7 +1,7 @@
 <?php 
 
 $postid = the_ID();
-$theshortcode = '[wpv-view name="single-product" ids="'.$postid.'"]';
+$theshortcode = '[wpv-view name="single-product" ids="270"]';
 echo do_shortcode($theshortcode); 
 echo $theshortcode;
 echo $postid;
