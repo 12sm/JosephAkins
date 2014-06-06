@@ -409,7 +409,8 @@ padding:0px;
 
 .song-list li {}
 
-.song-list .col-sm-6 {border-right:1px solid #ccc; padding: 10px 0px;}
+.song-list .col-sm-6 {padding: 10px 0px;}
+.song-list .col-sm-6:nth-child(1) {border-right: 1px solid #ccc;}
 .song-list .song {border-right:1px solid #ccc;}
 
 .track-title {
@@ -460,7 +461,7 @@ text-align: center;
 }
 
 .store-table-header h4 {
-color: #F1EFEA;
+color: #FFF;
 font-size: 20px;
 font-weight: 200;
 }
