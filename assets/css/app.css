@@ -373,11 +373,11 @@ body.music .featured-thumb {border: 1px solid #ccc;}
 body.single-album .featured-thumb img,
 body.music .featured-thumb img {border: 5px solid #fff;}
 
-.btn {background: #A57513; color: #fff;}
+.btn {background: #A57513; color: #fff;transition:opacity .3s ease;}
 .btn-sm {background: #0B5D6B;}
 
 .btn:hover,.btn-sm:hover {
-opacity: 0.8;
+opacity: 0.6;
 color:#fff!important;
 }
 
