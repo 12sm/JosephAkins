@@ -562,6 +562,7 @@ text-align: left;
 height: auto;
 padding-bottom: 0px;
 overflow: hidden;
+font-size: 22px;
 }
 
 body.single-product .main header {display:none;} 
