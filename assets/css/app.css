@@ -557,8 +557,11 @@ padding: 2%;
 list-style: none;
 padding-left: 0px;
 }
-.store-title-2 h5 {
+.store-title h2 {
 text-align: left;
+height: auto;
+padding-bottom: 0px;
+overflow: hidden;
 }
 
 body.single-product .main header {display:none;} 
@@ -1093,6 +1096,13 @@ overflow: hidden;
 padding-bottom: 0px;
 }
 
+.store-title h2 {
+text-align: left;
+height: 0px;
+padding-bottom: 18%;
+overflow: hidden;
+}
+
 }
 
 
@@ -1134,7 +1144,9 @@ overflow: hidden;
 padding-bottom: 70%;
 }
 
- }
+
+
+}
 
 
 @media (min-width: 992px) and (max-width:1199px) {
@@ -1162,6 +1174,13 @@ body.store .album-excerpt {
 margin-bottom: 15px;
 height: 84px;
 padding-bottom:0px;
+overflow: hidden;
+}
+
+.store-title h2 {
+text-align: left;
+height: 0px;
+padding-bottom: 18%;
 overflow: hidden;
 }
 
