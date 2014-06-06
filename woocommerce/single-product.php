@@ -1,34 +1,15 @@
-<?php
-/**
- * The Template for displaying all single products.
- *
- * Override this template by copying it to yourtheme/woocommerce/single-product.php
- *
- * @author 		WooThemes
- * @package 	WooCommerce/Templates
- * @version     1.6.4
- */
-
-if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
-
- ?>
-
-	<?php
-		/**
-		 * woocommerce_before_main_content hook
-		 *
-		 * @hooked woocommerce_output_content_wrapper - 10 (outputs opening divs for the content)
-		 * @hooked woocommerce_breadcrumb - 20
-		 */
-		do_action( 'woocommerce_before_main_content' );
-	?>
-
-		<?php while ( have_posts() ) : the_post(); ?>
-
-			<?php wc_get_template_part( 'content', 'single-product' ); ?>
-
-		<?php endwhile; // end of the loop. ?>
-
-
-
-<?php get_footer( 'shop' ); ?>
+<?php while (have_posts()) : the_post(); ?>
+  <article <?php post_class(); ?>>
+    <header>
+      <h1 class="entry-title"><?php the_title(); ?></h1>
+      <?php get_template_part('templates/entry-meta'); ?>
+    </header>
+    <div class="entry-content">
+      <?php the_content(); ?>
+    </div>
+    <footer>
+      <?php wp_link_pages(array('before' => '<nav class="page-nav"><p>' . __('Pages:', 'roots'), 'after' => '</p></nav>')); ?>
+    </footer>
+    <?php comments_template('/templates/comments.php'); ?>
+  </article>
+<?php endwhile; ?>
