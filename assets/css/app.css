@@ -202,6 +202,12 @@ float: left;
 margin: 6px 10px;
 font-size: 15px;
 }
+
+.dropdown-menu {
+font-size: 20px;
+text-transform: uppercase;
+}
+
 /* ==========================================================================
    Home
    ========================================================================== */
@@ -344,14 +350,21 @@ margin-bottom: 15px;
    ========================================================================== */
 
 body.single-album .entry-meta,
-body.single-album .entry-title {display:none;}
+body.single-album .entry-title,
+body.music .entry-meta,
+body.music .entry-title {display:none;}
 
-body.single-album .album-header {margin-bottom: 30px;}
+body.single-album .album-header,
+body.music .album-header {margin-bottom: 30px;}
 
-body.single-album .album-desc {font-size:16px;}
+body.single-album .album-desc,
+body.music .album-desc {font-size:16px;}
 
-body.single-album .featured-thumb {border: 1px solid #ccc;}
-body.single-album .featured-thumb img {border: 5px solid #fff;}
+body.single-album .featured-thumb,
+body.music .featured-thumb {border: 1px solid #ccc;}
+
+body.single-album .featured-thumb img,
+body.music .featured-thumb img {border: 5px solid #fff;}
 
 .btn {background: #A57513; color: #fff;}
 .btn-sm {background: #0B5D6B;}
@@ -361,7 +374,8 @@ opacity: 0.8;
 color:#fff!important;
 }
 
-body.single-album .buy-panel {text-align:center;}
+body.single-album .buy-panel,
+body.music .buy-panel {text-align:center;}
 
 .row-store a {display:block;}
 
