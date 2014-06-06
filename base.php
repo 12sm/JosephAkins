@@ -20,6 +20,9 @@
   <div class="wrap container-fluid" role="document">
     <div class="content col row">
       <main class="main <?php echo roots_main_class(); ?>" role="main">
+      	<div class="row sidebar-cart">
+      		<?php dynamic_sidebar('sidebar-footer'); ?>
+      	</div>
         <?php include roots_template_path(); ?>
       </main><!-- /.main -->
     </div><!-- /.content -->
