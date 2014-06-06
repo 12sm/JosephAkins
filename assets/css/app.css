@@ -236,7 +236,11 @@ padding-bottom: 32%;
 background-size: contain!important;
 background-repeat: no-repeat;
 background-position: center;
+transition:opacity .3s ease;
 }
+
+.home-banner:hover {opacity:.7;}
+
 .navbar-brand{
    display: none!important;
 }
@@ -941,6 +945,8 @@ padding-top: 1%;
 border: 1px solid rgb(238, 238, 238);
 padding: 2%;
 }
+
+div.music-wrapper p {margin-left: 15px;}
 
 .individual-post .wp-post-image {display:none;}
 
