@@ -889,6 +889,23 @@ display: none;
 display: inline-block;
 margin-right: 25px;
 font-weight: bold;
+color: #FFF;
+border: 1px solid #E2D9CD;
+}
+
+.gal-title:hover {
+color: #FFF;
+border: 1px solid #7C5B16;
+}
+
+.btn:hover {
+background: #A57513;
+}
+
+.gal-title a {
+color: #A57513;
+letter-spacing: 1px;
+font-weight: 100;
 }
 
 .gal-title .btn{font-size: 100%;
