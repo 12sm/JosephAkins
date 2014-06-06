@@ -1,15 +1,7 @@
-<?php while (have_posts()) : the_post(); ?>
-  <article <?php post_class(); ?>>
-    <header>
-      <h1 class="entry-title"><?php the_title(); ?></h1>
-      <?php get_template_part('templates/entry-meta'); ?>
-    </header>
-    <div class="entry-content">
-      <?php the_content(); ?>
-    </div>
-    <footer>
-      <?php wp_link_pages(array('before' => '<nav class="page-nav"><p>' . __('Pages:', 'roots'), 'after' => '</p></nav>')); ?>
-    </footer>
-    <?php comments_template('/templates/comments.php'); ?>
-  </article>
-<?php endwhile; ?>
+<ul class="nav nav-tabs" id="myTab">
+  <li class="active"><a href="#music" data-toggle="tab">Music</a></li>
+  <li><a href="#sheet-music" data-toggle="tab">Sheet Music</a></li>
+  </ul>
+          <div class="tab-content">
+  			<div class="tab-pane fade in active" id="music"><?php echo do_shortcode('[wpv-view name="store-music"]'); ?></div>
+  			<div class="tab-pane fade" id="sheet-music"><?php echo do_shortcode('[wpv-view name="store-sheet-music"]'); ?></div>
