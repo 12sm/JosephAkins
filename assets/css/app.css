@@ -1134,7 +1134,11 @@ nav{
 .vid-div {
 padding: 0 11%;
 }
-.owl-theme .owl-controls .owl-buttons .owl-next {position:absolute; right:3%;}
+
+.owl-theme .owl-controls .owl-buttons .owl-next {position:absolute; right:3%;opacity:.3;transition:opacity .3s ease;}
+.owl-theme .owl-controls .owl-buttons .owl-prev {position:absolute; left:3%;opacity:.3;transition:opacity .3s ease;}
+.owl-theme .owl-controls .owl-buttons .owl-next:hover {opacity:1;}
+.owl-theme .owl-controls .owl-buttons .owl-prev:hover {opacity:1;}
 
 #mc_embed_signup label {display: none;}
 
