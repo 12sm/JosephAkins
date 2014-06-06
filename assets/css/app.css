@@ -414,7 +414,7 @@ padding:0px;
 
 .track-title {
 padding: 10px;
-font-size: 14px;
+font-size: 16px;
 text-align: center;
 position: relative;
 top: 5px;
@@ -453,11 +453,18 @@ body.store .add_to_cart_button,
 body.store .view-details {width:100%; margin-bottom:15px;}
    
 .store-table-header{
-   background-color: #0B5D6B;
-   margin: 0 0%;
-    margin-bottom: 15px; 
-    text-align: center;
+background-color: #D8D0B2;
+margin: 0 0%;
+margin-bottom: 15px;
+text-align: center;
 }
+
+.store-table-header h4 {
+color: #F1EFEA;
+font-size: 20px;
+font-weight: 200;
+}
+
 .store-table-header h3{
    color: #fff;
 }
