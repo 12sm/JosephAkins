@@ -208,6 +208,13 @@ font-size: 20px;
 text-transform: uppercase;
 }
 
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus {
+color: #fff;
+text-decoration: none;
+outline: 0;
+background-color: #A57513;
+}
+
 /* ==========================================================================
    Home
    ========================================================================== */
@@ -853,8 +860,6 @@ background-color:#FFF;
 height: 0px;
 background-position: center center!important;
 padding-bottom: 75%;
-background-image: url(../img/blog-default.jpg);
-background-size: cover;
 }
 .single-post .about-img {
 margin-bottom: 15px;
