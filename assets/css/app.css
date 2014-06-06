@@ -1068,7 +1068,7 @@ margin: 0px auto;
 body.store .album-excerpt {
 margin-bottom: 15px;
 height: 84px;
-padding-bottom:0px
+padding-bottom:0px;
 overflow: hidden;
 }
 
