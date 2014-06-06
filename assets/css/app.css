@@ -79,6 +79,8 @@ ul.dropdown-menu {
   border:transparent!important;
 }
 
+.dropdown-menu li {padding: 2% 0;}
+
 h3 {font-size: 14px;}
 
 h4 {font-size: 14px;color:#ffffff;}
