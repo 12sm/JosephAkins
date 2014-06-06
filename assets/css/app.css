@@ -505,6 +505,8 @@ padding-left: 0px;
 text-align: left;
 }
 
+body.single-product .main header {display:none;} 
+
 
   /*SoundManager Css*/
   a.sm2_button {
