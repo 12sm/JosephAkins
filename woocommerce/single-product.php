@@ -46,5 +46,3 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 		 */
 		do_action( 'woocommerce_sidebar' );
 	?>
-
-<?php get_footer( 'shop' ); ?>
