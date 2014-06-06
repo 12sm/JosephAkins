@@ -382,7 +382,8 @@ color:#fff!important;
 }
 
 body.single-album .buy-panel,
-body.music .buy-panel {
+body.music .buy-panel,
+body.single-product .buy-panel {
 text-align: center;
 background-color: #FFF;
 border: 1px solid #ECECEC;
