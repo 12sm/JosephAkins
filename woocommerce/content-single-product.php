@@ -1,6 +1,6 @@
 <?php 
 
-echo do_shortcode('[wpv-view name="store-page"]'); 
+echo do_shortcode('[wpv-view name="single-product" theid="444"]'); 
 
 
 ?>
