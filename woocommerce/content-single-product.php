@@ -1,1 +1,6 @@
-<?php echo do_shortcode('[wpv-view name="single-product" ids="'.the_ID().'"]') ?>
+<?php 
+
+$theshortcode = '[wpv-view name="single-product" ids="'.the_ID().'"]';
+echo do_shortcode($theshortcode); 
+
+?>
