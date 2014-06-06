@@ -416,7 +416,12 @@ content: "\f04b";
    ========================================================================== */
 
 body.store .album-excerpt a {display:none;}  
-body.store .album-excerpt {margin-top:30px;} 
+body.store .album-excerpt {
+margin: 15px 0px;
+height: auto;
+overflow: hidden;
+padding-bottom: 0px;
+}
 
 body.store .add_to_cart_button,
 body.store .view-details {width:100%; margin-bottom:15px;}
@@ -988,6 +993,12 @@ height: 0px;
 padding-bottom: 89.8%;
 }
 
+body.store .album-excerpt {
+margin-bottom: 15px;
+height: 140px;
+overflow: hidden;
+padding-bottom: 0px;
+}
 
 }
 
@@ -1023,6 +1034,13 @@ padding: 0 11%;
 
 #mc_embed_signup label {display: none;}
 
+body.store .album-excerpt {
+margin-bottom: 15px;
+height: 0px;
+overflow: hidden;
+padding-bottom: 70%;
+}
+
  }
 
 
@@ -1046,6 +1064,13 @@ margin: 0px auto;
 }
 
 #mc_embed_signup label {display:block;}
+
+body.store .album-excerpt {
+margin-bottom: 15px;
+height: 84px;
+padding-bottom:0px
+overflow: hidden;
+}
 
 
 }
