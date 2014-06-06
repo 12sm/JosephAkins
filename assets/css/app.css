@@ -333,6 +333,11 @@ p.pause:before{
 margin-top: 25px;
 }
 
+.bio-home p {
+line-height: 1.6;
+font-weight: 100;
+}
+
 h3.quote-text {
 font-size: 20px;
 font-weight: 100;
