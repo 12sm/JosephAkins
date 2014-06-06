@@ -365,7 +365,7 @@ body.single-album .album-header,
 body.music .album-header {margin-bottom: 30px;}
 
 body.single-album .album-desc,
-body.music .album-desc {font-size:16px;}
+body.music .album-desc {font-size: 14px;line-height: 1.6em;font-weight: 100;}
 
 body.single-album .featured-thumb,
 body.music .featured-thumb {border: 1px solid #ccc;}
@@ -382,7 +382,12 @@ color:#fff!important;
 }
 
 body.single-album .buy-panel,
-body.music .buy-panel {text-align:center;}
+body.music .buy-panel {
+text-align: center;
+background-color: #FFF;
+border: 1px solid #ECECEC;
+padding: 0% 2% 5% 2%;
+}
 
 .row-store a {display:block;}
 
