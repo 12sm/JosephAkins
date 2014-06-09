@@ -1179,6 +1179,10 @@ nav{
 
 .nav-mail {float:right;}
 
+.home-banner {
+padding-bottom: 50%;
+}
+
 .vid-div {
 padding: 0 11%;
 }
@@ -1215,6 +1219,10 @@ margin: 0px auto;
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
+
+.home-banner {
+padding-bottom: 32%;
+}
 
 .addthis_counter{
   float: none;
