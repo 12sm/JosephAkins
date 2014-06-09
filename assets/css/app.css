@@ -1002,7 +1002,8 @@ margin-right: 15px;
  -moz-column-count: 1;
  -webkit-column-count: 1;
  }
- .single-video .header-page{
+ .single-video .header-page, 
+ .single-video entry-meta {
   /* Cheap CSS Fix */
   display: none!important;
  }
