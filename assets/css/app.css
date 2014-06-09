@@ -576,9 +576,17 @@ margin-top: -33%;
 width: 100%;	
 }
 
+#sheet-music .images a {
+display: block;
+height: 0px;
+overflow: hidden;
+padding-bottom: 135%;	
+}
+
 #sheet-music .thumbnails a {
 float: left;
 display: inline;
+padding-bottom:0px;
 height: 90px;
 width: 90px;	
 }
