@@ -87,13 +87,13 @@ function roots_gallery($attr) {
   foreach ($attachments as $id => $attachment) {
     switch($link) {
       case 'file':
-        $image = wp_get_attachment_link($id, 'large', false, false);
+        $image = wp_get_attachment_link($id, $size, false, false);
         break;
       case 'none':
-        $image = wp_get_attachment_image($id, 'large', false, array('class' => 'thumbnail img-thumbnail'));
+        $image = wp_get_attachment_image($id, $size, false, array('class' => 'thumbnail img-thumbnail'));
         break;
       default:
-        $image = wp_get_attachment_link($id, 'large', false, false);
+        $image = wp_get_attachment_link($id, $size, false, false);
         break;
     }
     
@@ -127,3 +127,18 @@ function roots_attachment_link_class($html) {
   return $html;
 }
 add_filter('wp_get_attachment_link', 'roots_attachment_link_class', 10, 1);
+
+function oikos_get_attachment_link_filter( $content, $post_id, $size, $permalink ) {
+ 
+    // Only do this if we're getting the file URL
+    if (! $permalink) {
+        // This returns an array of (url, width, height)
+        $image = wp_get_attachment_image_src( $post_id, 'large' );
+        $new_content = preg_replace('/href=\'(.*?)\'/', 'href=\'' . $image[0] . '\'', $content );
+        return $new_content;
+    } else {
+        return $content;
+    }
+}
+ 
+add_filter('wp_get_attachment_link', 'oikos_get_attachment_link_filter', 10, 4);
