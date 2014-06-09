@@ -1208,6 +1208,8 @@ margin: 0px auto;
 }
 
 
+@media (max-width: 1300px) {#mc_embed_signup label {display:none;}}
+
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
