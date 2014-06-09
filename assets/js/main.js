@@ -99,23 +99,30 @@ soundManager.onready(function() {
           audio.play();
         });
         // Keyboard shortcuts
-        $(document).keydown(function(e) {
-          var unicode = e.charCode ? e.charCode : e.keyCode;
+        //$(document).keydown(function(e) {
+          //var unicode = e.charCode ? e.charCode : e.keyCode;
              // right arrow
-          if (unicode == 39) {
-            var next = $('li.playing').next();
-            if (!next.length) next = $('ol li').first();
-            next.click();
+          //if (unicode == 39) {
+            $('.next').click(function() {
+            	var next = $('li.playing').next();
+            	next.click()
+            });
+            $('.prev').click(function() {
+            	var prev = $('li.playing').prev();
+            	prev.click()
+            });
+            //if (!next.length) next = $('ol li').first();
+          
             // back arrow
-          } else if (unicode == 37) {
-            var prev = $('li.playing').prev();
-            if (!prev.length) prev = $('ol li').last();
-            prev.click();
+          //} else if (unicode == 37) {
+          //  var prev = $('li.playing').prev();
+            //if (!prev.length) prev = $('ol li').last();
+            //prev.click();
             // spacebar
-          } else if (unicode == 32) {
-            audio.playPause();
-          }
-        })
+          //} else if (unicode == 32) {
+            //audio.playPause();
+          //}
+        //})
     
     $('.add_to_cart_button').removeClass('button');
     }
