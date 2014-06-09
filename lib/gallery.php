@@ -123,7 +123,7 @@ if (current_theme_supports('bootstrap-gallery')) {
  */
 function roots_attachment_link_class($html) {
   $postid = get_the_ID();
-  $html = str_replace('<a', '<a class="thumbnail img-thumbnail" rel="lightbox"', $html);
+  $html = str_replace('<a', '<a class="thumbnail img-thumbnail cboxElement" rel="lightbox" data-rel="prettyPhoto[photo-gallery]"', $html);
   return $html;
 }
 add_filter('wp_get_attachment_link', 'roots_attachment_link_class', 10, 1);
