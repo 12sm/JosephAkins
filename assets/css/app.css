@@ -591,6 +591,10 @@ height: 90px;
 width: 90px;	
 }
 
+.sheet-excerpt {
+margin-bottom: 15px;
+height: auto;	
+}
 
   /*SoundManager Css*/
   a.sm2_button {
