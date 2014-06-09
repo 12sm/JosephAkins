@@ -486,10 +486,10 @@ float: left;
 
 .play-button i {padding: 7px 9px;}
 
-.sm2_link>.fa :before, .sm2_paused>.fa:before {
+.sm2_link .fa :before, .sm2_paused .fa:before {
 content: "\f04b";
 }
-.sm2_playing>.fa:before{
+.sm2_playing .fa:before{
   content: "\f04c";
 }
 
