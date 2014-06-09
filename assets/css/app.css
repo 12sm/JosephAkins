@@ -377,7 +377,7 @@ background-size: contain;
 margin: 0 1%;
 }
 
-body.home song-list {display:none;}
+body.home .song-list {display:none;}
 
 /* ==========================================================================
    Header
