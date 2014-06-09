@@ -324,6 +324,10 @@ overflow: hidden;
   color: #000!important;
 }
 
+.audiojs .time {
+float: none!important;
+}
+
 .play-pause>p{
   display: inline-block;
 font-family: FontAwesome;
