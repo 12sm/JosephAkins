@@ -567,6 +567,22 @@ font-size: 22px;
 
 body.single-product .main header {display:none;} 
 
+.cart_list product_list_widget {display:none;}
+
+#sheet-music .thumbnails {
+position: absolute;
+margin-left: 100%;
+margin-top: -33%;
+width: 100%;	
+}
+
+#sheet-music .thumbnails a {
+float: left;
+display: inline;
+height: 90px;
+width: 90px;	
+}
+
 
   /*SoundManager Css*/
   a.sm2_button {
