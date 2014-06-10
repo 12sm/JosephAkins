@@ -90,6 +90,8 @@ soundManager.onready(function() {
             first = $('ol a').attr('data-src');
         $('ol li').first().addClass('playing');
         audio.load(first);
+        var newtext = $('li.playing a').text();
+	    $('.music-wrapper p.song-title').text(newtext);
 
         // Load in a track on click
         $('ol li').click(function(e) {
@@ -110,7 +112,7 @@ soundManager.onready(function() {
             
             $('.song-list li').click(function(){
             	var newtext = $('li.playing a').text();
-	            $('.music-wrapper p').text(newtext);
+	            $('.music-wrapper p.song-title').text(newtext);
             });
              
     $('.add_to_cart_button').removeClass('button');
