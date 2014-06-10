@@ -579,7 +579,8 @@ body.single-product .main header {display:none;}
 position: absolute;
 margin-left: 100%;
 margin-top: -33%;
-width: 100%;	
+width: 100%;
+display:none;	
 }
 
 #sheet-music .images a {
@@ -1154,6 +1155,10 @@ text-align: left;
 height: 0px;
 padding-bottom: 18%;
 overflow: hidden;
+}
+
+#sheet-music .thumbnails {
+display: block;
 }
 
 }
