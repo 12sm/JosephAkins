@@ -251,7 +251,7 @@ background-color: #A57513;
    ========================================================================== */
 
 .home-banner {
-padding-bottom: 32%;
+padding-bottom: 103%;
 background-size: contain!important;
 background-repeat: no-repeat;
 background-position: center;
@@ -999,6 +999,8 @@ margin-right: 15px;
  -moz-column-gap: 20px;
  -webkit-column-count: 1;
  -webkit-column-gap: 30px;
+ float:none;
+ clear:both;
  }
 
  .single-photos .hentry .entry-content {
