@@ -1088,6 +1088,14 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* Extra small devices (phones, up to 480px) */
 /* No media query since this is the default in Bootstrap */
 
+@media (max-width:767px) {
+	
+.music-carousel-item>h3 {
+    max-height:20px;
+    overflow:hidden;
+}	
+	
+}
 
 
 
