@@ -383,6 +383,7 @@ margin: 0 1%;
 
 body.home .song-list {display:none;}
 body.home .music-wrapper h6 a {color:#fff!important;}
+
 /* ==========================================================================
    Header
    ========================================================================== */
@@ -1228,6 +1229,12 @@ margin: 0px auto;
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
+
+body.home .featured-excerpt {
+height: 0px;
+padding-bottom: 41%;
+overflow: hidden;	
+}
 
 .home-banner {
 padding-bottom: 32%;
