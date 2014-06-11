@@ -23,12 +23,12 @@ do_action( 'woocommerce_before_cart' ); ?>
 <div class="shop_table cart col-sm-12">
 	<div class="col-sm-12">
 		<div class="row">
-			<div class="product-remove col-md-1">&nbsp;</th>
-			<div class="product-thumbnail col-md-1">&nbsp;</th>
-			<div class="product-name col-md-4"><?php _e( 'Product', 'woocommerce' ); ?></th>
-			<div class="product-price col-md-2"><?php _e( 'Price', 'woocommerce' ); ?></th>
-			<div class="product-quantity col-md-2"><?php _e( 'Quantity', 'woocommerce' ); ?></th>
-			<div class="product-subtotalcol-md-2"><?php _e( 'Total', 'woocommerce' ); ?></th>
+			<div class="product-remove col-md-1">&nbsp;</div>
+			<div class="product-thumbnail col-md-1">&nbsp;</div>
+			<div class="product-name col-md-4"><?php _e( 'Product', 'woocommerce' ); ?></div>
+			<div class="product-price col-md-2"><?php _e( 'Price', 'woocommerce' ); ?></div>
+			<div class="product-quantity col-md-2"><?php _e( 'Quantity', 'woocommerce' ); ?></div>
+			<div class="product-subtotalcol-md-2"><?php _e( 'Total', 'woocommerce' ); ?></div>
 		</div>
 	</div>
 	<tbody>
