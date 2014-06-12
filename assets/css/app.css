@@ -74,6 +74,10 @@ text-transform: uppercase!important;
 letter-spacing: .1em!important;
 }
 
+.navbar-default .navbar-nav .open .dropdown-menu>.active>a, .navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover, .navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus {
+text-align: center;
+}
+
 ul.dropdown-menu {
   background-image: url(../img/nav-bg.jpg)!important;
   border:transparent!important;
@@ -1153,7 +1157,7 @@ h3{
 }
 
 .navbar-nav {margin-top: .3%!important;}
-.navbar-default .navbar-nav>li>a{font-size: 18px;}
+.navbar-default .navbar-nav>li>a{font-size: 17px; padding: 15px 10px;}
 
 .store-title .preview-container {
   margin-top: 15px;
@@ -1198,7 +1202,7 @@ display: block;
 .navbar-nav {
 margin: 0px auto;
 float: none;
-width: 630px;
+width: 740px;
 }
 
 .home-banner {
