@@ -1127,6 +1127,11 @@ background-color:#EEECDD;
 border: 1px solid rgba(0,0,0,0.1);
 margin: 0px 0px 24px -15px;
 }
+
+.remove {
+margin-top: 25px;
+display: block;	
+}
 	
 }
 
