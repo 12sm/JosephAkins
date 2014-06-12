@@ -21,7 +21,7 @@ do_action( 'woocommerce_before_cart' ); ?>
 
 <div class="row">
 <div class="shop_table cart col-sm-12 table table-hover table-striped">
-	<div class="row hidden-xs">
+	<div class="row hidden-xs border">
 			<div class="product-remove col-md-1">&nbsp;</div>
 			<div class="product-thumbnail col-md-1">&nbsp;</div>
 			<div class="product-name col-md-4"><?php _e( 'Product', 'woocommerce' ); ?></div>
@@ -40,7 +40,7 @@ do_action( 'woocommerce_before_cart' ); ?>
 
 			if ( $_product && $_product->exists() && $cart_item['quantity'] > 0 && apply_filters( 'woocommerce_cart_item_visible', true, $cart_item, $cart_item_key ) ) {
 				?>
-				<div class="row <?php echo esc_attr( apply_filters( 'woocommerce_cart_item_class', 'cart_item', $cart_item, $cart_item_key ) ); ?>">
+				<div class="row border <?php echo esc_attr( apply_filters( 'woocommerce_cart_item_class', 'cart_item', $cart_item, $cart_item_key ) ); ?>">
 
 					<div class="col-md-1 product-remove">
 						<?php
