@@ -1098,7 +1098,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 @media (max-width:767px) {
 	
 .music-carousel-item>h3 {
-    max-height:20px;
+    max-height:15px;
     overflow:hidden;
 }	
 
@@ -1113,7 +1113,7 @@ overflow: hidden;
 }
 
 .nav-tabs>li>a {
-padding:8px;
+padding:4px;
 }
 	
 }
