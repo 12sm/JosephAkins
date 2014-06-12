@@ -1111,6 +1111,10 @@ height: 0px;
 padding-bottom: 40%;
 overflow: hidden;	
 }
+
+.nav-tabs>li>a {
+padding:8px;
+}
 	
 }
 
@@ -1202,8 +1206,10 @@ display: block;
 .navbar-nav {
 margin: 0px auto;
 float: none;
-width: 740px;
+width: 640px;
 }
+
+.navbar-default {height:100px;}
 
 .home-banner {
 padding-bottom: 49%;
