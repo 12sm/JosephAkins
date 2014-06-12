@@ -1134,8 +1134,7 @@ margin: 0px 0px 24px -15px;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-.col,
-.post-nav {margin:0 10%;}
+
 .hide-mobile{
   display: block;
 }
@@ -1238,6 +1237,10 @@ padding-bottom: 49%;
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+
+.col,
+.post-nav {margin:0 10%;}
+
 
 nav{
   /*fixes overlapping of navbar*/
