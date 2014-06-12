@@ -19,7 +19,7 @@ do_action( 'woocommerce_before_cart' ); ?>
 
 <?php do_action( 'woocommerce_before_cart_table' ); ?>
 
-<div class="table-responsive">
+<div class="">
 <table class="shop_table cart table table-hover table-striped" cellspacing="0">
 	<thead>
 		<tr>

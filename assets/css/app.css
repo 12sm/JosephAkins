@@ -1120,6 +1120,11 @@ padding:4px;
 background-image: none;
 background-color:#EEECDD;
 }
+
+.woocommerce table.shop_table, .woocommerce-page table.shop_table {
+border: 1px solid rgba(0,0,0,0.1);
+margin: 0px 0px 24px -15px;
+}
 	
 }
 
