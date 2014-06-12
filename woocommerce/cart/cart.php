@@ -42,13 +42,13 @@ do_action( 'woocommerce_before_cart' ); ?>
 				?>
 				<div class="row border <?php echo esc_attr( apply_filters( 'woocommerce_cart_item_class', 'cart_item', $cart_item, $cart_item_key ) ); ?>">
 
-					<div class="col-sm-1 product-remove">
+					<div class="col-xs-1 product-remove">
 						<?php
 							echo apply_filters( 'woocommerce_cart_item_remove_link', sprintf( '<a href="%s" class="remove" title="%s">&times;</a>', esc_url( WC()->cart->get_remove_url( $cart_item_key ) ), __( 'Remove this item', 'woocommerce' ) ), $cart_item_key );
 						?>
 					</div>
 
-					<div class="col-sm-1 product-thumbnail">
+					<div class="col-xs-3 col-sm-1 product-thumbnail">
 						<?php
 							$thumbnail = apply_filters( 'woocommerce_cart_item_thumbnail', $_product->get_image(), $cart_item, $cart_item_key );
 
@@ -59,7 +59,7 @@ do_action( 'woocommerce_before_cart' ); ?>
 						?>
 					</div>
 
-					<div class="col-sm-4 product-name">
+					<div class="col-xs-4 product-name">
 						<?php
 							if ( ! $_product->is_visible() )
 								echo apply_filters( 'woocommerce_cart_item_name', $_product->get_title(), $cart_item, $cart_item_key );
@@ -75,13 +75,13 @@ do_action( 'woocommerce_before_cart' ); ?>
 						?>
 					</div>
 
-					<div class="col-sm-2 product-price">
+					<div class="hidden-xs col-sm-2 product-price">
 						<?php
 							echo apply_filters( 'woocommerce_cart_item_price', WC()->cart->get_product_price( $_product ), $cart_item, $cart_item_key );
 						?>
 					</div>
 
-					<div class="col-sm-2 product-quantity">
+					<div class="col-xs-2 product-quantity">
 						<?php
 							if ( $_product->is_sold_individually() ) {
 								$product_quantity = sprintf( '1 <input type="hidden" name="cart[%s][qty]" value="1" />', $cart_item_key );
@@ -98,7 +98,7 @@ do_action( 'woocommerce_before_cart' ); ?>
 						?>
 					</div>
 
-					<div class="col-sm-2 product-subtotal">
+					<div class="col-xs-2 product-subtotal">
 						<?php
 							echo apply_filters( 'woocommerce_cart_item_subtotal', WC()->cart->get_product_subtotal( $_product, $cart_item['quantity'] ), $cart_item, $cart_item_key );
 						?>
