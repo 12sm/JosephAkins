@@ -1115,6 +1115,11 @@ overflow: hidden;
 .nav-tabs>li>a {
 padding:4px;
 }
+
+.wrap {
+background-image: none;
+background-color:#EEECDD;
+}
 	
 }
 
@@ -1203,6 +1208,12 @@ display: block;
 
 
 @media (min-width:768px) and (max-width:991px){
+
+.wrap {
+background-image: none;
+background-color:#EEECDD;
+}
+
 .navbar-nav {
 margin: 0px auto;
 float: none;
