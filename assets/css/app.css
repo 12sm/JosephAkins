@@ -1134,10 +1134,14 @@ border: 1px solid rgba(0,0,0,0.1);
 margin: 0px 0px 24px -15px;
 }
 
-.remove {
+remove {
 margin-top: 25px;
-display: block;	
+display: block;
+font-size: 30px;
+font-weight: bold;
 }
+
+.actions {text-align:center;}
 	
 }
 
@@ -1352,6 +1356,8 @@ overflow: hidden;
 }
 
 /* WOO RESPONSIVE!!!! */
+
+.coupon {padding:15px;}
 
 .cart_item {padding:10px;}
 
