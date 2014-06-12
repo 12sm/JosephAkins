@@ -111,6 +111,7 @@ do_action( 'woocommerce_before_cart' ); ?>
 		do_action( 'woocommerce_cart_contents' );
 		?>
 		<div class="row cart-contents">
+			<div class="col-md-6"></div>
 			<div class="col-md-6 actions">
 
 				<?php if ( WC()->cart->coupons_enabled() ) { ?>
