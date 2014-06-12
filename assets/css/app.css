@@ -1058,7 +1058,7 @@ font-size: 10px;
 text-transform: uppercase;
 }
 
-/* Keeps Disquis from loading ontop of image in blog posts */
+/* Keeps Disqus from loading ontop of image in blog posts */
 .entry-content img {
 float: none!important;
 }
